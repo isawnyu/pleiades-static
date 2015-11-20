@@ -1,40 +1,10 @@
-<footer class="site-footer">
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
-
+<footer>
+  <div class="pleiades-rights text-center">
+    <p>Content is governed by the copyrights of the <a href="http://pleiades.stoa.org/credits/">individual contributors</a> responsible for its creation. 
+      Some rights are reserved. <br />All content is distributed under the terms of a Creative Commons Attribution license (cc-by).</p>
+    <p>Software is 100% open source, governed by various copyrights and licenses. Consult <a href="https://github.com/isawnyu/pleiades-gazetteer#code-plone-buildout">the individual packages</a> for details.</p>
   </div>
-
 </footer>
 
 <script src="{{ site.baseurl }}/bower_components/jquery/dist/jquery.min.js"></script>

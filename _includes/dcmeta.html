@@ -1,0 +1,31 @@
+<!-- Dublin Core metadata -->
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<meta name="DC.title" property="dc:title" itemprop="name" lang="en" content="{{ page.title }}"/>
+
+{% if page.description %}
+<meta name="DC.description" property="dc:description" itemprop="description" lang="en" content="{{ page.description }}"/>
+{% endif %}
+
+{% if page.subjects %}
+<meta name="DC.subject" property="dc:subject" itemprop="about" lang="en" content="{{ page.subjects }}"/>
+{% endif %}
+
+<meta name="DC.type" property="dc:type" lang="en" content="Text"/>
+
+<meta name="DC.date" property="dc:date" content="2015-11-09"/>
+
+<meta name="DC.publisher" property="dc:publisher" itemprop="publisher" lang="en" content="Institute for the Study of the Ancient World, New York University"/>
+<meta name="DC.publisher" property="dc:publisher" itemprop="publisher" lang="en" content="Ancient World Mapping Center, University of North Carolina at Chapel Hill"/>
+
+<meta name="DC.language" property="dc:language" itemprop="inLanguage" content="{% if page.language %}{{ page.language }}{% else %}en-US{% endif %}"/>
+
+<meta name="DC.rights" property="dc:rights" itemprop="copyrightHolder" lang="en" content="{% if page.copyright %}{{ page.copyright }}{% else %}Copyright New York University, University of North Carolina at Chapel Hill, and the contributors.{% endif %}"/>
+
+<meta name="DCTERMS.license" property="dcterms:license" content="{% if page.license %}{{ page.license }}{% else %}http://creativecommons.org/licenses/by/3.0/us/{% endif %}"/>
+
+<meta name="DCTERMS.bibliographicCitation" property="dcterms:bibliographicCitation" lang="en" content="Sean Gillies and Tom Elliott. &quot;{{ page.title }}.&quot; Pleiades, 09 November 2015. {{ site.url }}{{ page.permalink }}."/>
+
+<meta name="DC.identifier" property="dc:identifier" itemprop="url" content="{{ site.url }}{{ page.permalink }}"/>
+    
+<!-- end of Dublin Core metadata -->

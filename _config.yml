@@ -6,23 +6,27 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Pleiades
+email: pleiades.admin@nyu.edu
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://pleiades.stoa.org" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+kramdown:
+  # parse kramdown content inside block-level html elements (overrides default)
+  # http://kramdown.gettalong.org/quickref.html#html-elements
+  parse_block_html: true
 sass:
   # loading path from site root
   # default to _sass
-  sass_dir: bower_components/bootstrap-sass/assets/stylesheets
+  sass_dir: _sass
 
   # style : nested (default), compact, compressed, expanded
   #         :nested, :compact, :compressed, :expanded also works

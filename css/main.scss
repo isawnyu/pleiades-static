@@ -6,8 +6,38 @@
 /* path to glyphicons */
 $icon-font-path: "/bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
-/* custom variable */
-$body-bg: red;
+/* pleiades-specific bootstrap overrides */
 
-/* any style customization must be before the bootstrap import */
-@import "bootstrap";
+$pleiades-blue:							#2576AD;
+$pleiades-panel-border-color:			#bbb;
+$pleiades-panel-shadow-color:			#ddd;
+$font-family-base:						"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$headings-font-family:					"Helvetica Neue", Helvetica, Arial, sans-serif;
+$pbrand-font-family: 					Trajan, "Crimson Text", "Times New Roman", serif;
+$navbar-default-color:					white !default;
+$navbar-default-bg:						$pleiades-blue !default;
+$navbar-default-link-color:             white !default;
+$navbar-default-brand-color: 			white !default;
+$navbar-default-brand-hover-color:      white !default;
+$navbar-default-toggle-icon-bar-bg:		white !default;
+
+// bootstrap 
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/theme";
+
+// jqueryui
+@import "../bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css";
+
+// basic customizations and mixin definitions (must be first)
+@import "readeasy";
+@import "whitespace";
+
+// individual customizations
+@import "abbr";
+@import "bodytext";
+@import "btn";
+@import "dogear";
+@import "footer";
+@import "headings";
+@import "navigation";
+@import "sidebar";
