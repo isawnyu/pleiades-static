@@ -1,0 +1,31 @@
+@charset 'utf-8';
+$dogear-size: 30px;
+$dogear-shadow-size: 4px;
+$dogear-shadow-color: $pleiades-panel-shadow-color;
+$dogear-color: $pleiades-panel-border-color;
+
+.dogear {
+    box-shadow: $dogear-shadow-size * -1 $dogear-shadow-size $dogear-shadow-size $dogear-shadow-color;
+    border-color: $dogear-color;
+}
+.dogear:after {
+    border-left: $dogear-size solid $dogear-color;
+    border-top: $dogear-size solid transparent;
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.dogear:before {
+    border-right: 2px  solid white;
+    border-top: 2px solid white;
+    bottom: $dogear-size + 1;
+    content: '';
+    display: block;
+    height: $dogear-size + 1;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    width: $dogear-size + 1;
+}

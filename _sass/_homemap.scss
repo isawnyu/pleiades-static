@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+@import "sidebar";
+
+.map-wrapper {
+    padding: 0;
+}
+#map {
+    display: block;
+    height: 60vh;
+    @media (max-width: $sidebar-break-min) {
+        height: 60vh;
+        max-height: 400px;
+    }
+}

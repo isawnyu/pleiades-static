@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+
+.custom-popup .leaflet-popup-content-wrapper {
+    border-radius: 8px;
+}
+.custom-popup .leaflet-popup-content {
+    padding: 14px;
+}
+.custom-popup .leaflet-popup-content * {
+    line-height: 1.3em;
+}
+.custom-popup .leaflet-popup-content .title {
+    margin-bottom: 10px;
+}

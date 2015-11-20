@@ -1,0 +1,19 @@
+@charset 'utf-8';
+
+// maximum line lengths for ease of reading
+$reading-width: 490px;
+
+@mixin readeasy-mixin {
+    max-width: $reading-width;
+    overflow: auto;
+    @media (min-width: $reading-width) {
+        // when wider than max comfortable reading width (set above), center 
+        // the column in the container 
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.readingwidth {
+    @include readeasy-mixin;
+}

@@ -1,0 +1,20 @@
+@charset 'utf-8';
+
+p, ul:not(.nav) {
+    @include readeasy-mixin;
+    @include whitespace-default;
+    @include whitespace-sm-min;
+}
+
+ul:not(.nav) {
+    padding-left: 20px;
+    @media (min-width: $screen-sm-min) {
+        padding-left: 40px;
+    }
+}
+
+ul:not(.nav) > li {
+    @media (min-width: $screen-sm-min) {
+        margin-bottom: .3em;
+    }
+}

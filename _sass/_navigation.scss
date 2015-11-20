@@ -1,0 +1,29 @@
+@charset 'utf-8';
+
+nav.navbar-default {
+    background-image: url('../images/background-slice.png');
+}
+
+nav.navbar-default .navbar-brand {
+    font-family: $pbrand-font-family;
+    font-size: 200%;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    padding-left: 0;
+    text-shadow: none;
+    text-transform: uppercase;
+    transform: scale(.85, 1.0);
+}
+
+nav.navbar-default .navbar-nav {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+nav.navbar-default .navbar-nav > li {
+    background-image: url('../images/background-slice.png');
+}
+
+nav.navbar-default .navbar-nav > li > a {
+    letter-spacing: 2px;
+}

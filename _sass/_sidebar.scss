@@ -1,0 +1,52 @@
+@charset 'utf-8';
+$sidebar-break-min: 992px;
+$sidebar-color: $pleiades-panel-border-color;
+
+.sidebar {
+    border-top: 1px solid $sidebar-color;
+    margin: $w-vert-default 0;
+    padding-top: $w-vert-default;
+    @include make-xs-column(12);
+    @include make-sm-column(12);
+    @include make-md-column(4);
+    @include make-lg-column(3)   
+}
+
+// leftward sibling content of the sidebar must bebe wrapped in div.content-main
+.content-main {
+    @include make-xs-column(12);
+    @include make-sm-column(12);
+    @include make-md-column(8);
+    @include make-lg-column(9)   
+}
+
+.sidebar h1, .sidebar h2, .sidebar h3, .sidebar h4, .sidebar h5, .sidebar h6 {
+    font-size: 20px;
+}
+
+@media (max-width: $sidebar-break-min) {
+    // suppress application of dogear (if any) to sidebars when screen
+    // is so narrow that the sidebar content is actually pushed below
+    // its preceding sibling content
+    .sidebar.dogear {
+        box-shadow: none;
+    }
+    .sidebar.dogear:before {
+        display: none;
+    }
+    .sidebar.dogear:after {
+        display: none;
+    }
+}
+
+@media (min-width: $sidebar-break-min) {
+    // when sidebar is actually appearing as a sidebar
+    .sidebar {
+        margin-top: 0;
+        padding: 1.5em;
+        border: 1px solid $sidebar-color;
+    }
+    .sidebar h1 {
+        margin-top: 0;
+    }
+}

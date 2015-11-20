@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.pleiades-staticsearch {
+    padding: 0;
+    @media (max-width: $sidebar-break-min) {
+    	margin: $w-vert-sm-min 0 $w-vert-sm-min;
+    }
+}
+.pleiades-staticsearch legend {
+    border: none;
+    margin-bottom: 0;
+    margin-top: 1.5em;
+    padding: .5em 1em;
+    text-align: center;
+}
+results > div > div {
+    padding: 2em;
+}
+ul.ui-autocomplete {
+    background-color: white;
+}
+div.search-map {
+    border: 1px solid #bbb;
+    height: 200px;
+}
+.search-map .leaflet-tile-pane {
+    opacity: .5;
+}
+.search-map:hover .leaflet-tile-pane {
+    opacity: 1;
+}

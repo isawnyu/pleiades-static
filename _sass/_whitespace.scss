@@ -1,0 +1,26 @@
+@charset 'utf-8';
+$w-vert-default: .5em;
+$w-vert-sm-min: 1em;
+$w-superwide-min: 1000px;
+
+#content {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+@mixin whitespace-default {
+    margin: $w-vert-default 0 $w-vert-default;
+}
+
+@mixin whitespace-sm-min {
+    @media (min-width: $screen-sm-min) {
+        margin: $w-vert-sm-min auto $w-vert-sm-min;
+    }
+}
+
+body {
+    padding-top: 50px;
+}
+
+div > *:last-child {
+    margin-bottom: 0;
+}
