@@ -1,8 +1,14 @@
 
 <footer>
   <div class="pleiades-rights text-center">
-    <p>Content is governed by the copyrights of the <a href="http://pleiades.stoa.org/credits/">individual contributors</a> responsible for its creation. 
-      Some rights are reserved. <br />All content is distributed under the terms of a Creative Commons Attribution license (cc-by).</p>
+  	<p>
+  	{% if page.copyright %}
+  	This page: Copyright © {{ year_range }} {{ page.copyright }}.
+  	{% else %}
+    Site content is governed by the copyrights of the <a href="http://pleiades.stoa.org/credits/">individual contributors</a> responsible for its creation. 
+      Some rights are reserved.
+    {% endif %} 
+    <br />All content is distributed under the terms of a Creative Commons Attribution license (cc-by).</p>
     <p>Software is 100% open source, governed by various copyrights and licenses. Consult <a href="https://github.com/isawnyu/pleiades-gazetteer#code-plone-buildout">the individual packages</a> for details.</p>
   </div>
 </footer>
