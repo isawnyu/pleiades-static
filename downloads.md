@@ -13,8 +13,6 @@ ogtype:
 ogimage: 
 ---
 
-<div class="content-main">
-
 # Downloads
 
 ## Exports
@@ -49,12 +47,3 @@ NB: RDF serializations of data for individual _places_ — in both Turtle and RD
 ### Pleiades Plus
 
 _Pleiades Plus_ (also known as _Pleiades+_) is an experimental machine alignment between _Pleiades_ _place_ resources and content in the [GeoNames gazetteer](http://www.geonames.org/). It pairs [_Pleiades_ Uniform Resource Identifiers (URIs)](http://pleiades.stoa.org/help/what-are-pleiades-uris) with _GeoNames_ URIs when a given pair seems likely to identify the same place. This alignment was conceived and prototyped by Leif Isaksen ([Pelagios Project](http://pelagios-project.blogspot.com/)) under the auspices of the [Google Ancient Places project](http://googleancientplaces.wordpress.com/about/) (you can read [the original announcement from 2011 on the GAP Blog](http://googleancientplaces.wordpress.com/2011/01/24/pleiades-adapting-the-ancient-world-gazetteer-for-gap-%E2%80%93-by-leif-isaksen/)). The current version is produced daily by [Ryan Baumann](http://ryanfb.github.io/) ([Duke Collaboratory for Classics Computing](http://blogs.library.duke.edu/dcthree/)). Code and data are available from [https://github.com/ryanfb/pleiades-plus]. There is also [an essential README file](https://github.com/ryanfb/pleiades-plus/blob/master/README.md).
-
-</div> 
-
-<div class="sidebar dogear">
-
-	{% includemd nopummel.md %}
-
-</div>
-
