@@ -2,7 +2,7 @@
 layout: default
 permalink: /participate
 title: Participate in Pleiades
-creator: Tom Elliott and Sean Gillies
+creators: Tom Elliott and Sean Gillies
 description: You don't need a login to start searching, reading and using Pleiades information, but you do need one if you wish to contribute corrections and new content.
 date: 2015-11-11
 subjects: Geography, Ancient; Data, Geospatial; Membership; Participation; Username; Accounts; Login; Signup
@@ -28,7 +28,7 @@ All of the resources (_places_, _names_, and _locations_, as well as _help_ and 
 * Interact programmatically with published content via our [API](http://api.pleiades.stoa.org); and
 * Download content en masse via [our downloads page](/downloads).
 
-If you run into "access denied" errors, please email [pleiades.admin@nyu.edu] with detailed information, including the link to the page you were trying to access.
+If you run into "access denied" errors, please email [pleiades.admin@nyu.edu](mailto:pleiades.admin@nyu.edu?subject=Pleiades access denied error) with detailed information, including the link to the page you were trying to access.
 
 
 ## Correcting and Adding Content 
@@ -42,7 +42,7 @@ or
 
 ### Sign Up
 
-To join the community, please send an email to [pleiades.admin@nyu.edu?subject=Pleiades user account request] requesting a _Pleiades_ username and password. Be sure to include your real full name, a valid email address, any institutional affiliation (don't worry if you don't have one!), and a brief statement as to your reasons for wanting to join.
+To join the community, please send an email to [pleiades.admin@nyu.edu](mailto:pleiades.admin@nyu.edu?subject=Pleiades user account request) requesting a _Pleiades_ username and password. Be sure to include your real full name, a valid email address, any institutional affiliation (don't worry if you don't have one!), and a brief statement as to your reasons for wanting to join.
 
 Please note that requesting and using a _Pleiades_ account constitutes your agreement to all terms of the [_Pleiades_ Contributor Agreement](/docs/policies/contributor-agreement). We also ask that you please read [our letter concerning _Pleiades_ and privacy](docs/policies/privacy).
 
