@@ -13,18 +13,27 @@
 
 <meta name="DC.type" property="dc:type" lang="en" content="Text"/>
 
-<meta name="DC.date" property="dc:date" content="2015-11-09"/>
+{% if page.created %}
+<meta name="DC.created" property="dc:date" content="{{ page.created }}"/>
+{% capture year_created %}{{ page.created | slice: 0, 4 }}{% endcapture %}
+{% endif %}
 
-<meta name="DC.publisher" property="dc:publisher" itemprop="publisher" lang="en" content="Institute for the Study of the Ancient World, New York University"/>
-<meta name="DC.publisher" property="dc:publisher" itemprop="publisher" lang="en" content="Ancient World Mapping Center, University of North Carolina at Chapel Hill"/>
+{% if page.modified %}
+<meta name="DC.modified" property="dc:date" content="{{ page.modified }}"/>
+{% capture year_modified %}{{ page.modified | slice: 0, 4 }}{% endcapture %}
+{% endif %}
 
-<meta name="DC.language" property="dc:language" itemprop="inLanguage" content="{% if page.language %}{{ page.language }}{% else %}en-US{% endif %}"/>
+{% capture year_range %}{% if year_modified != year_created %}{{ year_created }}-{{ year_modified }}{% else %}{{ year_created}}{% endif %}{% endcapture %}
 
-<meta name="DC.rights" property="dc:rights" itemprop="copyrightHolder" lang="en" content="{% if page.copyright %}{{ page.copyright }}{% else %}Copyright New York University, University of North Carolina at Chapel Hill, and the contributors.{% endif %}"/>
+<meta name="DC.publisher" property="dc:publisher" itemprop="publisher" lang="en" content="{{ site.publisher }}"/>
 
-<meta name="DCTERMS.license" property="dcterms:license" content="{% if page.license %}{{ page.license }}{% else %}http://creativecommons.org/licenses/by/3.0/us/{% endif %}"/>
+<meta name="DC.language" property="dc:language" itemprop="inLanguage" content="{% if page.language %}{{ page.language }}{% else %}{{ site.language }}{% endif %}"/>
 
-<meta name="DCTERMS.bibliographicCitation" property="dcterms:bibliographicCitation" lang="en" content="Sean Gillies and Tom Elliott. &quot;{{ page.title }}.&quot; Pleiades, 09 November 2015. {{ site.url }}{{ page.permalink }}."/>
+<meta name="DC.rights" property="dc:rights" itemprop="copyrightHolder" lang="en" content="{% if page.copyright %}Copyright © {{ year_range }} {{ page.copyright }}{% else %}{{ site:copyright }}{% endif %}."/>
+
+<meta name="DCTERMS.license" property="dcterms:license" content="{% if page.license %}{{ page.license }}{% else %}{{ site.license }}{% endif %}"/>
+
+<meta name="DCTERMS.bibliographicCitation" property="dcterms:bibliographicCitation" lang="en" content="{% if page.citation %}{{ page.citation }}{% else %}{{ page.creators }}. &quot;{{ page.title }}.&quot; Pleiades, {{ year_range }}. {{ site.url }}{{ page.permalink }}.{% endif %}"/>
 
 <meta name="DC.identifier" property="dc:identifier" itemprop="url" content="{{ site.url }}{{ page.permalink }}"/>
     
