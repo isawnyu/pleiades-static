@@ -4,13 +4,10 @@ permalink: /places
 title: Places
 creator: The Editors
 description: You don't need a login to start searching, reading and using Pleiades information, but you do need one if you wish to contribute corrections and new content.
-date: 2015-11-14
+created: 2007-01-01
+modified: 2015-11-20
 subjects: Geography, Ancient; Data, Geospatial; Places; Placenames; Toponyms; Locations; Coordinates
-dctype:
-language:
-citation: 
-ogtype:
-ogimage: 
+copyright: The University of North Carolina at Chapel Hill, New York University, and the Editors
 ---
 
 <div class="content-main">

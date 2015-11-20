@@ -2,15 +2,12 @@
 layout: default
 permalink: /participate
 title: Participate in Pleiades
-creators: Tom Elliott and Sean Gillies
+creators: Sean Gillies and Tom Elliott
 description: You don't need a login to start searching, reading and using Pleiades information, but you do need one if you wish to contribute corrections and new content.
-date: 2015-11-11
+created: 2007-01-01
+modified: 2015-11-20
 subjects: Geography, Ancient; Data, Geospatial; Membership; Participation; Username; Accounts; Login; Signup
-dctype:
-language:
-citation: 
-ogtype:
-ogimage: 
+copyright: The University of North Carolina at Chapel Hill and New York University
 ---
 
 <div class="content-main">

@@ -1,16 +1,13 @@
 ---
 layout: default
 permalink: /downloads
-title: Pleiades Downloads
+title: Downloads
 creator: Sean Gillies and Tom Elliott
 description: Regularly updated exports of all published Pleiades resources are available in multiple formats including CSV, KML, and RDF.
-date: 2015-11-09
+created: 2007-01-01
+modified: 2015-11-20
 subjects: Geography, Ancient; Data, Geospatial; Downloading of data
-dctype:
-language:
-citation: 
-ogtype:
-ogimage: 
+copyright: The University of North Carolina at Chapel Hill and New York University
 ---
 
 # Downloads
