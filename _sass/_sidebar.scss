@@ -42,7 +42,6 @@ $sidebar-color: $pleiades-panel-border-color;
 @media (min-width: $sidebar-break-min) {
     // when sidebar is actually appearing as a sidebar
     .sidebar {
-        margin-top: 0;
         padding: 1.5em;
         border: 1px solid $sidebar-color;
     }

@@ -1,12 +1,25 @@
 @charset 'utf-8';
-$w-vert-default: .5em;
-$w-vert-sm-min: 1em;
+$w-vert-default: 10px;
+$w-vert-sm-min: 20px;
 $w-superwide-min: 1000px;
 
 #content {
-	padding-left: 1em;
-	padding-right: 1em;
+	padding: $w-vert-default;
+	@media (min-width: $screen-sm-min) {
+		padding: $w-vert-sm-min $w-vert-default $w-vert-sm-min;
+	}
 }
+
+@media (min-width: $screen-sm-min) {
+	#content > *  {
+		margin-top: 0;
+	}
+	#content h1 {
+		margin-top: 0;
+		line-height: $font-size-h1;
+	}
+}
+
 @mixin whitespace-default {
     margin: $w-vert-default 0 $w-vert-default;
 }
