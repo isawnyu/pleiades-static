@@ -14,6 +14,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://pleiades.stoa.org" # the base hostname & protocol for your site
 twitter_username: pleiadesproject
 license: http://creativecommons.org/licenses/by/3.0/us/
+publisher: Institute for the Study of the Ancient World (New York University) and Ancient World Mapping Center (University of North Carolina at Chapel Hill)
+language: en-US
+copyright: Site content is governed by the copyrights of the individual contributors responsible for its creation.
 
 # Build settings
 markdown: kramdown
