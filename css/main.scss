@@ -20,6 +20,9 @@ $navbar-default-link-color:             white !default;
 $navbar-default-brand-color: 			white !default;
 $navbar-default-brand-hover-color:      white !default;
 $navbar-default-toggle-icon-bar-bg:		white !default;
+$font-size-base:          				14px !default;
+$jumbotron-font-size:            		ceil(($font-size-base * 1.2)) !default;
+$jumbotron-heading-font-size:    		ceil(($font-size-base * 2)) !default;
 
 // bootstrap 
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
@@ -40,5 +43,6 @@ $navbar-default-toggle-icon-bar-bg:		white !default;
 @import "dogear";
 @import "footer";
 @import "headings";
+@import "lede";
 @import "navigation";
 @import "sidebar";
