@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /about
+permalink: /about/
 title: About Pleiades
 creators: The Editors
 description: Information about Pleiades - its purpose, history, and impact.
