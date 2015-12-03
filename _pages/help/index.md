@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pleiades Help
-permalink: /help
+permalink: /help/
 ---
 
 You are here: [Home](http://pleiades.stoa.org/home) →  Help
