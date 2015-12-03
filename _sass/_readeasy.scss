@@ -5,7 +5,7 @@ $reading-width: 490px;
 
 @mixin readeasy-mixin {
     max-width: $reading-width;
-    overflow: auto;
+    overflow: visible;
     @media (min-width: $reading-width) {
         // when wider than max comfortable reading width (set above), center 
         // the column in the container 
