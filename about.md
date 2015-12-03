@@ -1,16 +1,15 @@
 ---
 layout: default
 permalink: /about
-title: About
+title: About Pleiades
 creators: The Editors
 description: Information about Pleiades - its purpose, history, and impact.
 created: 2007-01-01
 modified: 2015-11-20
 subjects: Geography, Ancient; Data, Geospatial; Project History; Grant History; Documentation
 copyright: The University of North Carolina at Chapel Hill and New York University
+lede: Pleiades publishes authoritative information about ancient places and spaces, providing unique services for finding, displaying, and reusing it under open license as part of a revolutionary network of digital humanities projects.
 ---
-
-Pleiades publishes authoritative information about ancient places and spaces, providing unique services for finding, displaying, and reusing it under open license as part of a revolutionary network of digital humanities projects.
 
 ## A Gazetteer, and More
 
