@@ -25,16 +25,19 @@ But it does so on an unprecedented scale, continuously enabling and drawing upon
 
 <div>
 ### [Community and Collaboration](community)
+{: .btn .btn-lg .btn-primary .pleiades-btn-glossed }
 
 foo
 </div>
 <div>
 ### [History](history)
+{: .btn .btn-lg .btn-primary .pleiades-btn-glossed }
 
 bar
 </div>
 <div>
 ### [Significance and Impact](impact)
+{: .btn .btn-lg .btn-primary .pleiades-btn-glossed }
 
 chuckles
 </div>
