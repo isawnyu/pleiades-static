@@ -3,11 +3,14 @@
 .lede {
     padding-left: 10px;
     padding-right: 10px;
-    text-align: center;
+    text-align: left;
+    @media (min-width: $screen-sm-min) {
+    	text-align: center;
+    }
 }
 .lede > * {
     @media (min-width: $screen-sm-min) {
-        max-width: $screen-md-min !important;
-        width: 80vw;
+        max-width: ceil(($reading-width * 1.5)) !important;
+        width: 70%;
     }
 }

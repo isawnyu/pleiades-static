@@ -8,6 +8,7 @@ $w-superwide-min: 1000px;
 	@media (min-width: $screen-sm-min) {
 		padding: $w-vert-sm-min $w-vert-default $w-vert-sm-min;
 	}
+    line-height: 1.5;	
 }
 
 @media (min-width: $screen-sm-min) {
