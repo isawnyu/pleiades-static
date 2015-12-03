@@ -11,7 +11,7 @@ copyright: The University of North Carolina at Chapel Hill and New York Universi
 lede: Pleiades publishes authoritative information about ancient places and spaces, providing unique services for finding, displaying, and reusing it under open license as part of a revolutionary network of digital humanities projects.
 ---
 
-## A Gazetteer, and More
+## A Gazetteer, and more...
 
 Like any good gazetteer, [_Pleiades_](http://pleiades.stoa.org) is an organized spatial reference work for use in research, publication, and teaching. Jointly operated by the [Institute for the Study of the Ancient World](http://isaw.nyu.edu) at New York University and by the [Ancient World Mapping Center](http://awmc.unc.edu) at the University of North Carolina at Chapel Hill, it constitutes the most accurate and comprehensive geographic dataset for the ancient Mediterranean world, identifying and describing nearly 35,000 places, spaces, territories, and regions.  It serves scholars, students, and members of the public alike as a ready reference and a guide to associated bibliography for places encountered in primary sources and secondary literature. 
 
@@ -23,8 +23,16 @@ But it does so on an unprecedented scale, continuously enabling and drawing upon
 
 <div class="pleiades-btn-panel">
 
+Learn more about the constitution of the project, its publications, and participants in the following sections:
+
 <div>
-### [Community and Collaboration](community)
+### [Content](content)
+{: .btn .btn-lg .btn-primary .pleiades-btn-glossed }
+
+egad
+</div>
+<div>
+### [Community](community)
 {: .btn .btn-lg .btn-primary .pleiades-btn-glossed }
 
 foo
@@ -36,7 +44,7 @@ foo
 bar
 </div>
 <div>
-### [Significance and Impact](impact)
+### [Impact](impact)
 {: .btn .btn-lg .btn-primary .pleiades-btn-glossed }
 
 chuckles
