@@ -36,4 +36,3 @@ sass:
   # nested 138,7kB, compact 129,1kB, expanded 135,9 kB, compressed 122,4 kB
   style: compressed
 include: ['_pages', '_pages/about', '_pages/help']
-permalink: /:path/:title
