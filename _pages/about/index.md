@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /about/
+permalink: /about
 title: About Pleiades
 creators: The Editors
 description: Information about Pleiades - its purpose, history, and impact.
@@ -34,7 +34,7 @@ foo
 bar
 </div>
 <div>
-### [Significance and Impace](impact)
+### [Significance and Impact](impact)
 
 chuckles
 </div>
