@@ -3,12 +3,20 @@
 .pleiades-btn-panel {
     @include readeasy-mixin;
 }
-
+.pleiades-btn-panel.spacious > div ~ div {
+    margin-top: 50px;
+}
+.pleiades-btn-glossed {
+    width: 100px;
+}
 .pleiades-btn-glossed > a {
     color: $navbar-default-link-color;
 }
 .pleiades-btn-glossed > a:hover {
     text-decoration: none;
+}
+.pleiades-btn-glossed > a > img {
+    width: 100px;
 }
 @media (min-width: $reading-width) {
     .pleiades-btn-glossed {
@@ -18,10 +26,15 @@
         margin-right: 15px;
         margin-top: .1em;        // fiddly alignment with top of associated paragraph b/c of line height
         white-space: normal;
-        width: 110px;
+    }
+    img.pleiades-btn-glossed {
+        width: 100px;
     }
     .pleiades-btn-glossed + p {
         margin-bottom: 25px;
+    }
+    .pleiades-btn-glossed ~ * {
+        padding-left: 115px;
     }
 }
 
