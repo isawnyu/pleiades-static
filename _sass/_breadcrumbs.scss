@@ -1,15 +1,18 @@
-@charset "utf-8";
+@charset 'utf-8';
 
 ol.breadcrumb:before {
-	content: "You are here: ";
+    content: 'You are here: ';
 }
 
 ol.breadcrumb {
-	margin-bottom: 0;
-
-	> li + li:before {
-		padding: 0 0px;
-	}
+    margin-bottom: 0;
+    > li + li:before {
+        padding: 0 0;
+    }
+    > li:last-child > a {
+        color: inherit;
+        cursor: default;
+        pointer-events: none;
+        text-decoration: none;
+    }
 }
-
-
