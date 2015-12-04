@@ -1,3 +1,4 @@
+---
 title: Pleiades Data Structure
 creator: The Editors
 description: 
@@ -9,6 +10,7 @@ citation:
 url: help/data-structure
 ogtype:
 ogimage: 
+---
 
 # Pleiades Data Structure
 
