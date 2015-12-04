@@ -180,11 +180,7 @@ def main (args):
                     if not omit:
                         text_cooked.append(line)
 
-                # what's changed
-                diff=difflib.unified_diff(text_raw, text_cooked)
-
                 # clean up extra blank lines
-
                 foo = text_cooked
                 text_cooked = []
                 blanks = 0
@@ -196,9 +192,13 @@ def main (args):
                     if blanks < 2:
                         text_cooked.append(line.strip())
 
-
-                print ("---\n{0}---\n\n{1}".format(front_matter, '\n'.join(text_cooked)))
-                #print(''.join(diff))
+                text_raw = "".join(text_raw)
+                text_cooked = "\n".join(text_cooked)
+                if text_cooked != text_raw:
+                    os.rename(fn, fn+'.bak')
+                    with open(fn, 'w') as f:
+                        f.write("---\n{0}---\n\n{1}".format(front_matter, text_cooked))
+                    logger.info("wrote updates to {0}".format(fn))
 
 if __name__ == "__main__":
     log_level = DEFAULTLOGLEVEL
