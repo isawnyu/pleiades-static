@@ -7,6 +7,14 @@
 <meta name="DC.description" property="dc:description" itemprop="description" lang="en" content="{{ page.description }}"/>
 {% endif %}
 
+{% for creator in page.creators %}
+<meta name="DC.creator" property="dc:creator" itemprop="creator" content="{{ creator.name }}"/>
+{% endfor %}
+
+{% for contributor in page.contributors %}
+<meta name="DC.contributor" property="dc:contributor" itemprop="contributor" content="{{ contributor.name }}"/>
+{% endfor %}
+
 {% if page.subjects %}
 <meta name="DC.subject" property="dc:subject" itemprop="about" lang="en" content="{{ page.subjects }}"/>
 {% endif %}
@@ -33,7 +41,9 @@
 
 <meta name="DCTERMS.license" property="dcterms:license" content="{% if page.license %}{{ page.license }}{% else %}{{ site.license }}{% endif %}"/>
 
+{% comment %}
 <meta name="DCTERMS.bibliographicCitation" property="dcterms:bibliographicCitation" lang="en" content="{% if page.citation %}{{ page.citation }}{% else %}{{ page.creators }}. &quot;{{ page.title }}.&quot; Pleiades, {{ year_range }}. {{ site.url }}{{ page.permalink }}.{% endif %}"/>
+{% endcomment %}
 
 <meta name="DC.identifier" property="dc:identifier" itemprop="url" content="{{ site.url }}{{ page.permalink }}"/>
     
