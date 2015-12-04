@@ -37,7 +37,7 @@
 
 <meta name="DC.language" property="dc:language" itemprop="inLanguage" content="{% if page.language %}{{ page.language }}{% else %}{{ site.language }}{% endif %}"/>
 
-<meta name="DC.rights" property="dc:rights" itemprop="copyrightHolder" lang="en" content="{% if page.copyright %}Copyright © {{ year_range }} {{ page.copyright }}{% else %}{{ site:copyright }}{% endif %}."/>
+<meta name="DC.rights" property="dc:rights" itemprop="copyrightHolder" lang="en" content="{% if page.copyright %}{{ page.copyright }}{% else %}{{ site:copyright }}{% endif %}"/>
 
 <meta name="DCTERMS.license" property="dcterms:license" content="{% if page.license %}{{ page.license }}{% else %}{{ site.license }}{% endif %}"/>
 
