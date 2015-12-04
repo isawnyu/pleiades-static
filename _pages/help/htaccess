@@ -2,3 +2,4 @@
 layout: null
 permalink: /help/.htaccess
 ---
+RewriteEngine On
