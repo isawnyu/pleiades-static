@@ -1,6 +1,6 @@
 @charset 'utf-8';
 
-p, ul:not(.nav) {
+p, ul:not(.nav), dl {
     @include readeasy-mixin;
     @include whitespace-default;
     @include whitespace-sm-min;
@@ -16,5 +16,12 @@ ul:not(.nav) {
 ul:not(.nav) > li {
     @media (min-width: $screen-sm-min) {
         margin-bottom: .3em;
+    }
+}
+
+dl > dd + dt {
+    margin-top: .3em;
+    @media (min-width: $screen-sm-min) {
+        margin-top: 1em;
     }
 }
