@@ -23,15 +23,15 @@ can access all published Pleiades content.
 shapshots of all Pleiades resources, available in multiple formats including
 CSV, KML, and RDF.
 
-[How to cite Pleiades](/news/blog/how-to-cite- pleiades) 
+[How to cite Pleiades](/news/blog/how-to-cite-pleiades) 
 : We've added a
 "suggested citation" to every place resource page in Pleiades.
 
-[How to search for things in Pleiades](/help/how- to-search) 
+[How to search for things in Pleiades](/help/how-to-search) 
 : Learn how to
 find a place by its ancient or modern name, and in other ways.
 
-[How to track changes in Pleiades](/help/how-to- track-changes-in-pleiades) 
+[How to track changes in Pleiades](/help/how-to-track-changes-in-pleiades) 
 : Pleiades provides a number of ways for keeping track of what's recently been
 added to or changed in Pleiades. Here's an overview.
 
