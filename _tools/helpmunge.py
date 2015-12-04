@@ -5,14 +5,22 @@ munge captured Pleiades help files into something jekyll can handle
 """
 
 import argparse
+import difflib
 from functools import wraps
 import logging
 import os
-import re
 import sys
 import traceback
 
+import regex as re
+from yaml import load, dump
+try:
+    from yaml import CLoader as Loader, CDumper as Dumper
+except ImportError:
+    from yaml import Loader, Dumper
+
 DEFAULTLOGLEVEL = logging.WARNING
+RX_HEADING = re.compile(r'^#\s+(.*)$')
 
 def arglogger(func):
     """
@@ -26,7 +34,50 @@ def arglogger(func):
     return inner    
 
 
-@arglogger
+def get_yamlfm(f):
+    """ 
+    get jekyll-style yaml front matter from a file object
+    h/t: http://stackoverflow.com/a/25816324
+    """
+    pointer = f.tell()
+    if f.readline() != '---\n':
+        f.seek(pointer)
+        return ''
+    readline = iter(f.readline, '')
+    readline = iter(readline.__next__, '---\n')
+    return ''.join(readline)
+
+def get_title(lines: list):
+    logger = logging.getLogger(sys._getframe().f_code.co_name)
+
+    try:
+        heading = [line for line in lines if line.startswith('# ')][0]
+    except IndexError:
+        raise RuntimeError("Failure parsing initial heading")
+        return None
+    else:
+        title = RX_HEADING.match(heading.strip()).group(1)
+        logger.debug("got heading: '{0}'".format(heading))
+        return heading, title
+
+def make_permalink(source: str):
+    if os.path.sep in source:
+        parts = os.path.basename(source)
+    else:
+        parts = source
+    parts = parts.lower().split('.')
+    parts = '-'.join(parts[:-1]).split()
+    return '-'.join(parts)
+
+def get_creators_and_contributors(lines: list):
+    return "Mutt and Jeff"
+
+def get_dates(lines: list):
+    return "2003-08-01", "2010-09-27"
+
+def get_tags(lines: list):
+    return None
+
 def main (args):
     """
     main functions
@@ -34,8 +85,120 @@ def main (args):
     logger = logging.getLogger(sys._getframe().f_code.co_name)
 
     for fn in args.filenames:
-        print(fn)
+        logger.debug("processing {0}".format(fn))
 
+        # get file content
+        with open(fn, 'r') as f:
+            front_matter = get_yamlfm(f)
+            text_raw = f.readlines()
+        if front_matter != '':
+            logger.warning(
+                "YAML frontmatter already found in {0}; skipping".format(fn)
+                )
+        else:
+            text_cooked = text_raw
+
+            # generate front matter for jekyll
+            try:
+                heading, title = get_title(text_cooked)
+            except RuntimeError as err:
+                logger.error("{0} from {1}; skipping".format(err, fn))
+            else:
+                front_matter = {
+                    'title': title,
+                    'layout': 'default',
+                    'permalink': args.permalink_prefix + make_permalink(fn),
+                }
+                creators = get_creators_and_contributors(text_cooked)
+                if creators is not None:
+                    front_matter['creators'] = creators
+                created, modified = get_dates(text_cooked)
+                if created is not None:
+                    front_matter['created'] = created
+                if modified is not None:
+                    front_matter['modified'] = modified
+                if created is None and modified is None:
+                    modified = os.path.getmtime(fn)
+                    modified = datetime.datetime.fromtimestamp(modified).strftime("%Y-%m-%d")
+                    front_matter['modified'] = modified
+                copyright = "Copyright © "
+                modified_year = modified.split("-")[0]
+                if created is not None:
+                    created_year = created.split("-")[0]
+                    if created_year != modified_year:
+                        copyright += "{0}-".format(created_year)
+                copyright += modified_year
+                copyright += " The University of North Carolina at Chapel Hill"
+                if int(modified_year) > 2007:
+                    copyright += " and New York University"
+                copyright += "."
+                front_matter['copyright'] = copyright
+                subject = get_tags(text_cooked)
+                if subject is not None:
+                    front_matter['subject'] = subject
+                front_matter = dump(
+                        front_matter, 
+                        Dumper=Dumper, 
+                        default_style=None,
+                        default_flow_style=False,
+                        width=1000)
+
+
+                #strip all lines before the first heading (Plone breadcrumbs)
+                i = text_cooked.index(heading)
+                logger.debug("heading index: {0}".format(i))
+                text_cooked = text_cooked[i:]
+
+                # strip History and Document actions from the end of the document
+                omit = True
+                try:
+                    i = len(text_cooked) - 1 - text_cooked[::-1].index("History\n")
+                except ValueError:
+                    try:
+                        i = len(text_cooked) - 1 - text_cooked[::-1].index("##### Document Actions\n")
+                    except ValueError:
+                        omit = False
+                if omit:
+                    logger.debug("history index: {0}".format(i))
+                    text_cooked = text_cooked[:i]
+
+                # strip Plone byline and dateline
+                foo = text_cooked
+                text_cooked = []
+                omit = False
+                for line in foo:
+                    if (
+                        line.startswith("Creators: ") 
+                        or line.startswith("Contributors: ")
+                        or line.startswith("Copyright ")
+                        or line.startswith("Last modified ")
+                        or line.startswith("tags: ")
+                        ):
+                        omit = True 
+                    elif omit and line.strip() == "":
+                        omit = False
+                    if not omit:
+                        text_cooked.append(line)
+
+                # what's changed
+                diff=difflib.unified_diff(text_raw, text_cooked)
+
+                # clean up extra blank lines
+
+                foo = text_cooked
+                text_cooked = []
+                blanks = 0
+                for line in foo:
+                    if line.strip() == "":
+                        blanks += 1
+                    else:
+                        blanks = 0
+                    if blanks < 2:
+                        text_cooked.append(line.strip())
+
+
+                print ("---\n{0}---\n\n{1}".format(front_matter, '\n'.join(text_cooked)))
+                #print(''.join(diff))
 
 if __name__ == "__main__":
     log_level = DEFAULTLOGLEVEL
@@ -47,6 +210,7 @@ if __name__ == "__main__":
         parser.add_argument ("-l", "--loglevel", type=str, help="desired logging level (case-insensitive string: DEBUG, INFO, WARNING, ERROR" )
         parser.add_argument ("-v", "--verbose", action="store_true", default=False, help="verbose output (logging level == INFO")
         parser.add_argument ("-vv", "--veryverbose", action="store_true", default=False, help="very verbose output (logging level == DEBUG")
+        parser.add_argument ("-p", "--permalink_prefix", type=str, default="", help="path prefix for permalinks")
         parser.add_argument("filenames", nargs='+', help="name(s) of files to convert")
         # example positional argument:
         # parser.add_argument('integers', metavar='N', type=int, nargs='+', help='an integer for the accumulator')
