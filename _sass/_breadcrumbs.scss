@@ -1,10 +1,15 @@
 @charset "utf-8";
 
-.breadcrumb {
-	margin-bottom: 0;
-}
-
 ol.breadcrumb:before {
 	content: "You are here: ";
 }
+
+ol.breadcrumb {
+	margin-bottom: 0;
+
+	> li + li:before {
+		padding: 0 0px;
+	}
+}
+
 
