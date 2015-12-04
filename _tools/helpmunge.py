@@ -12,6 +12,7 @@ import os
 import sys
 import traceback
 
+import dateutil.parser as dateparser
 import regex as re
 from yaml import load, dump
 try:
@@ -21,6 +22,7 @@ except ImportError:
 
 DEFAULTLOGLEVEL = logging.WARNING
 RX_HEADING = re.compile(r'^#\s+(.*)$')
+RX_REVISION = re.compile(r'^\s+\*\s+Edited by \[(.+)\]\((.+)\) on (.+)\s*$')
 
 def arglogger(func):
     """
@@ -73,7 +75,18 @@ def get_creators_and_contributors(lines: list):
     return "Mutt and Jeff"
 
 def get_dates(lines: list):
-    return "2003-08-01", "2010-09-27"
+    logger = logging.getLogger(sys._getframe().f_code.co_name)
+    line = [line for line in lines if line.startswith("Last modified ")][0]
+    modified = line[14:].strip()
+    logger.debug(modified)
+    modified = dateparser.parse(modified).strftime("%Y-%m-%d")
+    if '\nHistory\n' in ''.join(lines):
+        line = [line for line in lines if RX_REVISION.match(line) is not None][-1]
+        created = RX_REVISION.match(line).group(3)
+        created = dateparser.parse(created).strftime("%Y-%m-%d")
+    else:
+        created = None
+    return created, modified
 
 def get_tags(lines: list):
     return None
@@ -141,7 +154,8 @@ def main (args):
                         Dumper=Dumper, 
                         default_style=None,
                         default_flow_style=False,
-                        width=1000)
+                        width=1000,
+                        allow_unicode=True)
 
 
                 #strip all lines before the first heading (Plone breadcrumbs)
