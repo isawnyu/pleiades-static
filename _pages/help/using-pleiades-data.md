@@ -45,7 +45,7 @@ drill down.
 a couple of internal options for maps with multiple places on them. Some of
 our partners also provide other options.
 
-[Pleiades Identifiers (place numbers)](/help /pleiades-identifiers-place-numbers) 
+[Pleiades Identifiers (place numbers)](/help/pleiades-identifiers-place-numbers) 
 : This document describes the various identifier schemes that have
 been used for Place Resources in Pleiades over the lifetime of the project. It
 also provides in...
