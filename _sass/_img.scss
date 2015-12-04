@@ -1,0 +1,10 @@
+@charset 'utf-8';
+$image-float-pad: 15px;
+
+#content img.pull-left {
+    margin-right: $image-float-pad;
+}
+
+#content img.pull-right {
+    margin-left: $image-float-pad;
+}
