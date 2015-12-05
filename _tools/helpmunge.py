@@ -23,6 +23,9 @@ except ImportError:
 DEFAULTLOGLEVEL = logging.WARNING
 RX_HEADING = re.compile(r'^#\s+(.*)$')
 RX_REVISION = re.compile(r'^\s+\*\s+Edited by \[(.+)\]\((.+)\) on (.+)\s*$')
+RX_SPACES = re.compile(r"\s+")
+RX_USERS = re.compile(r"^\[(.+)\]\((.+)\)")
+BOGUS = ["Joe User", "Anne User"]
 
 def arglogger(func):
     """
@@ -72,7 +75,67 @@ def make_permalink(source: str):
     return '-'.join(parts)
 
 def get_creators_and_contributors(lines: list):
-    return "Mutt and Jeff"
+    logger = logging.getLogger(sys._getframe().f_code.co_name)
+
+    creators = []
+    capture = False
+    for line in lines:
+        if line.startswith("Creators:"):
+            capture = True
+            creators.append(line[10:])
+        elif line.strip() == ""  or line.startswith("Copyright"):
+            capture = False
+        elif capture:
+            creators.append(line)
+    creators = " ".join(creators).split(",")
+    creators = [RX_SPACES.sub(" ", creator.strip()) for creator in creators]
+    creators = [creator for creator in creators if creator != ""]
+
+
+    contributors = []
+    capture = False
+    for line in lines:
+        if line.startswith("Contributors:"):
+            capture = True 
+            contributors.append(line[14:])
+        elif line.strip() == "" or line.startswith("Copyright"):
+            capture = False
+        elif capture:
+            contributors.append(line)
+    contributors = " ".join(contributors).split(",")
+    contributors = [RX_SPACES.sub(" ", contributor.strip()) for contributor in contributors]
+    contributors = [contributor for contributor in contributors if contributor != "" and contributor not in creators]
+
+    if '\nHistory\n' in ''.join(lines):
+        others = [line for line in lines if RX_REVISION.match(line) is not None]
+        others = [RX_REVISION.match(line).groups() for line in others]
+    else:
+        others = []
+    others = ["[{0}]({1})".format(other[0], other[1].replace("http://pleiades.stoa.org", "")) for other in others]
+    others = list(set(others))
+    others = [other for other in others if other not in creators and other not in contributors]
+    contributors.extend(others)
+
+    if len(creators) > 0:
+        logger.debug("creators: {0}".format(creators))
+        creators = [RX_USERS.match(creator).groups() for creator in creators]
+        creators = [{"name": creator[0], "path": creator[1]} for creator in creators if creator[0] not in BOGUS]
+
+    if len(contributors) > 0:
+        logger.debug("contributors: {0}".format(contributors))
+        try:
+            contributors = [RX_USERS.match(contributor).groups() for contributor in contributors]
+        except AttributeError:
+            oddballs = [contributor for contributor in contributors if RX_USERS.match(contributor) is None]
+            oddballs = [{"name": o} for o in oddballs]
+            logger.warning("The following contributors did not have associated paths: {0}".format(oddballs))
+            contributors = [contributor for contributor in contributors if contributor not in oddballs]
+        else:
+            oddballs = []
+        contributors = [{"name": contributor[0], "path": contributor[1]} for contributor in contributors if contributor[0] not in BOGUS]
+        contributors.extend(oddballs)
+
+    return creators, contributors
 
 def get_dates(lines: list):
     logger = logging.getLogger(sys._getframe().f_code.co_name)
@@ -122,9 +185,11 @@ def main (args):
                     'layout': 'default',
                     'permalink': args.permalink_prefix + make_permalink(fn),
                 }
-                creators = get_creators_and_contributors(text_cooked)
-                if creators is not None:
+                creators, contributors = get_creators_and_contributors(text_cooked)
+                if len(creators) > 0:
                     front_matter['creators'] = creators
+                if len(contributors) > 0:
+                    front_matter['contributors'] = contributors
                 created, modified = get_dates(text_cooked)
                 if created is not None:
                     front_matter['created'] = created
@@ -140,10 +205,18 @@ def main (args):
                     created_year = created.split("-")[0]
                     if created_year != modified_year:
                         copyright += "{0}-".format(created_year)
-                copyright += modified_year
-                copyright += " The University of North Carolina at Chapel Hill"
+                copyright += modified_year + " "
+                copyowners = [p["name"] for p in creators if p["name"] not in ["Sean Gillies", "Tom Elliott"]]
+                copyowners.append("The University of North Carolina at Chapel Hill")
                 if int(modified_year) > 2007:
-                    copyright += " and New York University"
+                    copyowners.append("New York University")
+                copyowners.extend([p["name"] for p in contributors if p["name"] not in ["Sean Gillies", "Tom Elliott"]])
+                if len(copyowners) == 2:
+                    copyright += " and ".join(copyowners)
+                elif len(copyowners) > 2:
+                    copyright += ", ".join(copyowners[:-1]) + ", and " + copyowners[-1]
+                else:
+                    copyright += copyowners[0]
                 copyright += "."
                 front_matter['copyright'] = copyright
                 subject = get_tags(text_cooked)
