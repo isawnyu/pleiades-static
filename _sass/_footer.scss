@@ -4,32 +4,33 @@ footer {
     background-color: $gray-lighter;
     margin-top: 1em;
     padding: 1em;
-}
-
-.pleiades-rights p {
-    margin: 1em 0 0;
-    max-width: 800px;
     text-align: center;
-}
 
-.pleiades-rights p:first-child {
-    margin-top: 0;
-}
-
-.pleiades-rights br {
-    display: none;
-}
-
-@media (min-width: $w-superwide-min) {
-    .pleiades-rights {
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 0;
-        padding-right: 0;
-        width: 800px;
-    }
-    .pleiades-rights br {
-        display: block;
+    p: {
+        margin: 1em 0 0;
+        max-width: 800px;
     }
 
+    p:first-child {
+        margin-top: 0;
+    }
+
+    br {
+        display: none;
+    }
+
+    @media (min-width: $w-superwide-min) {
+        > div {
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 0;
+            padding-right: 0;
+            width: 800px;
+        }
+        br {
+            display: block;
+        }
+
+    }
 }
+

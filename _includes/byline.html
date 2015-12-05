@@ -1,0 +1,7 @@
+{% if page.creators or page.contributors %}
+<div class="pleiades-byline">
+<p>Content on this page was authored by 
+  {% for author in page.creators %}<span class="page-creator">{% if author.path %}<a href="{{author.path}}">{{author.name}}</a>{% else %}{{author.name}}{% endif %}</span>{% endfor %}{% if page.contributors %} with the assistance of {% endif %}{% for author in page.contributors %}<span class="page-contributor">{% if author.path %}<a href="{{author.path}}">{{author.name}}</a>{% else %}{{author.name}}{% endif %}</span>{% endfor %}.</p>
+</div>
+{% endif %}
+
