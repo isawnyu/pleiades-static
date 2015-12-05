@@ -1,0 +1,13 @@
+@charset 'utf-8';
+
+.pleiades-byline .page-creator:after, .page-contributor:after {
+    content: ', ';
+}
+
+.pleiades-byline .page-creator:last-child:after, .page-contributor:last-child:after {
+    content: None;
+}
+
+.pleiades-byline .page-creator:nth-last-child(2):after, .page-contributor:nth-last-child(2):after {
+    content: ' and ';
+}
