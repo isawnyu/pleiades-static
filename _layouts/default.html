@@ -1,20 +1,20 @@
+{% comment %}
+---
+#layout: compress
+---
+{% endcomment %}
+
 <!DOCTYPE html>
 {% include browsers.html %}
-
-  {% include head.html %}
-
+{% include head.html %}
   <body>
-    {% include ieupgrade.html %}
-    {% include header.html %}
-
+  {% include ieupgrade.html %}
+  {% include header.html %}
     <div class="container-fluid" id="content-container">
     	<div class="row" id="content">
       		{{ content }}
-      	</div>
+      </div>
     </div>
-
-    {% include footer.html %}
-
+  {% include footer.html %}
   </body>
-
 </html>
