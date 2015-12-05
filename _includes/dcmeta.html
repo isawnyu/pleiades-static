@@ -31,8 +31,6 @@
 {% capture year_modified %}{{ page.modified | slice: 0, 4 }}{% endcapture %}
 {% endif %}
 
-{% capture year_range %}{% if year_modified != year_created %}{{ year_created }}-{{ year_modified }}{% else %}{{ year_created}}{% endif %}{% endcapture %}
-
 <meta name="DC.publisher" property="dc:publisher" itemprop="publisher" lang="en" content="{{ site.publisher }}"/>
 
 <meta name="DC.language" property="dc:language" itemprop="inLanguage" content="{% if page.language %}{{ page.language }}{% else %}{{ site.language }}{% endif %}"/>
@@ -41,9 +39,9 @@
 
 <meta name="DCTERMS.license" property="dcterms:license" content="{% if page.license %}{{ page.license }}{% else %}{{ site.license }}{% endif %}"/>
 
-{% comment %}
-<meta name="DCTERMS.bibliographicCitation" property="dcterms:bibliographicCitation" lang="en" content="{% if page.citation %}{{ page.citation }}{% else %}{{ page.creators }}. &quot;{{ page.title }}.&quot; Pleiades, {{ year_range }}. {{ site.url }}{{ page.permalink }}.{% endif %}"/>
-{% endcomment %}
+{% capture year_range %}{% if year_modified != year_created %}{{ year_created }}-{{ year_modified }}{% else %}{{ year_created}}{% endif %}{% endcapture %}
+
+<meta name="DCTERMS.bibliographicCitation" property="dcterms:bibliographicCitation" lang="en" content="{% if page.citation %}{{ page.citation }}{% else %}{% if page.creators %}{{ page.creators.first.name }}{% if page.creators.size > 1 or page.contributors %} et al{% endif %}{% endif %}. &quot;{{ page.title }}.&quot; Pleiades ({{ year_range }}). {{ site.url }}{{ page.permalink }}.{% endif %}"/>
 
 <meta name="DC.identifier" property="dc:identifier" itemprop="url" content="{{ site.url }}{{ page.permalink }}"/>
     
