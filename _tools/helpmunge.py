@@ -238,11 +238,17 @@ def main (args):
                     if created_year != modified_year:
                         copyright += "{0}-".format(created_year)
                 copyright += modified_year + " "
-                copyowners = [p["name"] for p in creators if p["name"] not in ["Sean Gillies", "Tom Elliott"]]
-                copyowners.append("The University of North Carolina at Chapel Hill")
-                if int(modified_year) > 2007:
-                    copyowners.append("New York University")
-                copyowners.extend([p["name"] for p in contributors if p["name"] not in ["Sean Gillies", "Tom Elliott"]])
+                staff_list = ["Tom Elliott", "Sean Gillies"]
+                staff = [p["name"] for p in creators if p["name"] in staff_list]
+                staff.extend([p["name"] for p in contributors if p["name"] in staff_list])
+                logger.debug("staff: {0}".format(staff))
+                copyowners = [p["name"] for p in creators if p["name"] not in staff]
+                if len(staff) > 0:
+                    if int(created_year) < 2009 or int(modified_year) < 2009:
+                        copyowners.append("The University of North Carolina at Chapel Hill")
+                    if int(created_year) > 2007 or int(modified_year) > 2007:
+                        copyowners.append("New York University")
+                copyowners.extend([p["name"] for p in contributors if p["name"] not in staff])
                 if len(copyowners) == 2:
                     copyright += " and ".join(copyowners)
                 elif len(copyowners) > 2:
