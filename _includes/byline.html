@@ -1,7 +1,55 @@
 {% if page.creators or page.contributors %}
 <div class="pleiades-byline">
 <p>Content on this page was authored by 
-  {% for author in page.creators %}<span class="page-creator">{% if author.path %}<a href="{{author.path}}">{{author.name}}</a>{% else %}{{author.name}}{% endif %}</span>{% endfor %}{% if page.contributors %} with the assistance of {% endif %}{% for author in page.contributors %}<span class="page-contributor">{% if author.path %}<a href="{{author.path}}">{{author.name}}</a>{% else %}{{author.name}}{% endif %}</span>{% endfor %}.
+	{% assign people = page.creators %}
+	{% assign class = 'page-creator' %}
+	{% if people.size > 0 %}
+		{% assign author0 = people[0] %}
+		{% if people.size == 1 %}
+			<span class="{{class}}">{% if author0.path %}<a href="{{author0.path}}">{{author0.name}}</a>{% else %}{{author0.name}}{% endif %}</span>{% unless page.contributors %}.{% endunless %}
+		{% elsif people.size == 2 %}
+			{% assign author1 = people[1] %}
+			<span class="{{class}}">{% if author0.path %}<a href="{{author0.path}}">{{author0.name}}</a>{% else %}{{author0.name}}{% endif %}</span>
+			and 
+			<span class="{{class}}">{% if author1.path %}<a href="{{author1.path}}">{{author1.name}}</a>{% else %}{{author1.name}}{% endif %}</span>{% unless page.contributors %}.{% endunless %}
+		{% else %}
+			{% assign pcount = people.size | minus: 2 %}
+			{% for i in (0..pcount) %}
+				{% assign author = people[i] %}
+				<span class="{{class}}">{% if author.path %}<a href="{{author.path}}">{{author.name}}</a>{% else %}{{author.name}}{% endif %}</span>,
+			{% endfor %}
+			and
+			{% assign authorlast = people.last %}
+			<span class="{{class}}">{% if authorlast.path %}<a href="{{authorlast.path}}">{{authorlast.name}}</a>{% else %}{{authorlast.name}}{% endif %}</span>{% unless page.contributors %}.{% endunless %}
+		{% endif %}
+	{% endif %}
+
+	{% if page.contributors.size > 0 %}
+		with the assistance of
+		{% assign people = page.contributors %}
+		{% assign class = 'page-contributor' %}
+		{% if people.size > 0 %}
+			{% assign author0 = people[0] %}
+			{% if people.size == 1 %}
+				<span class="{{class}}">{% if author0.path %}<a href="{{author0.path}}">{{author0.name}}</a>{% else %}{{author0.name}}{% endif %}</span>.
+			{% elsif people.size == 2 %}
+				{% assign author1 = people[1] %}
+				<span class="{{class}}">{% if author0.path %}<a href="{{author0.path}}">{{author0.name}}</a>{% else %}{{author0.name}}{% endif %}</span>
+				and 
+				<span class="{{class}}">{% if author1.path %}<a href="{{author1.path}}">{{author1.name}}</a>{% else %}{{author1.name}}{% endif %}</span>.
+			{% else %}
+				{% assign pcount = people.size | minus: 2 %}
+				{% for i in (0..pcount) %}
+					{% assign author = people[i] %}
+					<span class="{{class}}">{% if author.path %}<a href="{{author.path}}">{{author.name}}</a>{% else %}{{author.name}}{% endif %}</span>,
+				{% endfor %}
+				and
+				{% assign authorlast = people.last %}
+				<span class="{{class}}">{% if authorlast.path %}<a href="{{authorlast.path}}">{{authorlast.name}}</a>{% else %}{{authorlast.name}}{% endif %}</span>.
+			{% endif %}
+		{% endif %}
+	{% endif %}
+
 	{% if page.copyright %}
 	{{ page.copyright }}
 	{% endif %}
