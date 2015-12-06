@@ -343,7 +343,9 @@ def main (args):
                     link_list = "\n".join(link_list).split("\n")
                     foo = text_cooked
                     text_cooked = foo[:i]
+                    text_cooked.append('<div class="clearfix">')
                     text_cooked.extend(link_list)
+                    text_cooked.append('</div> <!-- end div.clearfix -->')
                     text_cooked.extend(foo[j:])
 
                 # clean up extra blank lines
