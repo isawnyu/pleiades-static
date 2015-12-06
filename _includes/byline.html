@@ -1,7 +1,15 @@
 {% if page.creators or page.contributors %}
 <div class="pleiades-byline">
 <p>Content on this page was authored by 
-  {% for author in page.creators %}<span class="page-creator">{% if author.path %}<a href="{{author.path}}">{{author.name}}</a>{% else %}{{author.name}}{% endif %}</span>{% endfor %}{% if page.contributors %} with the assistance of {% endif %}{% for author in page.contributors %}<span class="page-contributor">{% if author.path %}<a href="{{author.path}}">{{author.name}}</a>{% else %}{{author.name}}{% endif %}</span>{% endfor %}.</p>
+  {% for author in page.creators %}<span class="page-creator">{% if author.path %}<a href="{{author.path}}">{{author.name}}</a>{% else %}{{author.name}}{% endif %}</span>{% endfor %}{% if page.contributors %} with the assistance of {% endif %}{% for author in page.contributors %}<span class="page-contributor">{% if author.path %}<a href="{{author.path}}">{{author.name}}</a>{% else %}{{author.name}}{% endif %}</span>{% endfor %}.
+	{% if page.copyright %}
+	{{ page.copyright }}
+	{% endif %}
+</p>
+<p>Please cite this page as follows:</p>
+<p class="pleiades-citation">
+{% if page.citation %}{{ page.citation }}{% else %}{% if page.creators %}{{ page.creators.first.name }}{% if page.creators.size > 1 or page.contributors %} et al{% endif %}{% endif %}. “{{ page.title }}” in <i>Pleiades</i> ({{ year_range }}): <a href="{{ site.url }}{{ page.permalink }}">{{ site.url }}{{ page.permalink }}</a>.{% endif %}
+</p>
 </div>
 {% endif %}
 
