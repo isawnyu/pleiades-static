@@ -87,6 +87,22 @@ def get_creators_and_contributors(lines: list):
             capture = False
         elif capture:
             creators.append(line)
+    # sometimes Copyright slips into preceding line with no spaces
+    foo = creators
+    creators = []
+    punt = False
+    for creator in foo:
+        try:
+            i = creator.index("Copyright")
+        except ValueError:
+            pass
+        else:
+            creator = creator[0:i].strip()
+            punt = True
+        creators.append(creator)
+        if punt:
+            break
+    # cleanup, regularize, and prune
     creators = " ".join(creators).split(",")
     creators = [RX_SPACES.sub(" ", creator.strip()) for creator in creators]
     creators = [creator for creator in creators if creator != ""]
@@ -102,6 +118,22 @@ def get_creators_and_contributors(lines: list):
             capture = False
         elif capture:
             contributors.append(line)
+    # sometimes Copyright slips into preceding line with no spaces
+    foo = contributors
+    contributors = []
+    punt = False
+    for contributor in foo:
+        try:
+            i = contributor.index("Copyright")
+        except ValueError:
+            pass
+        else:
+            contributor = contributor[0:i].strip()
+            punt = True
+        contributors.append(contributor)
+        if punt:
+            break
+    # cleanup, regularize, and prune        
     contributors = " ".join(contributors).split(",")
     contributors = [RX_SPACES.sub(" ", contributor.strip()) for contributor in contributors]
     contributors = [contributor for contributor in contributors if contributor != "" and contributor not in creators]
