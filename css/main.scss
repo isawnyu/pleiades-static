@@ -51,3 +51,8 @@ $breadcrumb-separator: 					">";
 @import "lede";
 @import "navigation";
 @import "sidebar";
+
+.clearfix {
+	clear:both;
+}
+
