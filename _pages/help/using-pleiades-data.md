@@ -1,7 +1,15 @@
 ---
-title: Using Pleiades Data
+copyright: Copyright © 2013 Brian Turner and New York University.
+created: '2013-01-31'
+creators:
+- name: Brian Turner
+  path: /author/bdturner
+- name: Tom Elliott
+  path: /author/thomase
 layout: default
+modified: '2013-06-14'
 permalink: /help/using-pleiades-data
+title: Using Pleiades Data
 ---
 
 #  Using Pleiades Data
