@@ -26,6 +26,7 @@ RX_REVISION = re.compile(r'^\s+\*\s+Edited by \[(.+)\]\((.+)\) on (.+)\s*$')
 RX_SPACES = re.compile(r"\s+")
 RX_USERS = re.compile(r"^\[(.+)\]\((.+)\)")
 RX_LINK_LIST_DELIM = re.compile(r"\[\s*\!\[Page\]\(http:\/\/pleiades\.stoa\.org/document_icon\.gif\)\s*\]\(http:\/\/pleiades\.stoa\.org\/[^\)]+\)")
+RX_IMG_EMBED = re.compile(r"\!\[([^\]]+)\]\(([^\)]+)\)")
 BOGUS = ["Joe User", "Anne User"]
 
 def arglogger(func):
@@ -322,7 +323,8 @@ def main (args):
                         text_cooked.append(line)
 
                 # handle topic-specific formatting
-                if topic and "Title | Description" in "".join(text_cooked):
+                if topic and "Title | Description" in "".join(text_cooked):                    
+                    # extract and reformat the list of links
                     i = 0
                     while not text_cooked[i].startswith("Title | Description"):
                         i += 1
