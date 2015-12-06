@@ -25,6 +25,7 @@ RX_HEADING = re.compile(r'^#\s+(.*)$')
 RX_REVISION = re.compile(r'^\s+\*\s+Edited by \[(.+)\]\((.+)\) on (.+)\s*$')
 RX_SPACES = re.compile(r"\s+")
 RX_USERS = re.compile(r"^\[(.+)\]\((.+)\)")
+RX_LINK_LIST_DELIM = re.compile(r"\[\s*\!\[Page\]\(http:\/\/pleiades\.stoa\.org/document_icon\.gif\)\s*\]\(http:\/\/pleiades\.stoa\.org\/[^\)]+\)")
 BOGUS = ["Joe User", "Anne User"]
 
 def arglogger(func):
@@ -274,6 +275,21 @@ def main (args):
                 logger.debug("heading index: {0}".format(i))
                 text_cooked = text_cooked[i:]
 
+                #if present, strip topic/folder-related links
+                #also, set a flag for later conditional processing
+                try:
+                    i = len(text_cooked) - 1 - text_cooked[::-1].index("[ ![KML](google_earth_link_14.png) Download KML\n")
+                except ValueError:
+                    topic = False
+                else:
+                    topic = True
+                    foo = text_cooked
+                    text_cooked = []
+                    text_cooked.extend(foo[0:i-1])
+                    while i < len(foo) and foo[i].strip() != "":
+                        i += 1;
+                    text_cooked.extend(foo[i:])
+
                 # strip History and Document actions from the end of the document
                 omit = True
                 try:
@@ -305,6 +321,31 @@ def main (args):
                     if not omit:
                         text_cooked.append(line)
 
+                # handle topic-specific formatting
+                if topic and "Title | Description" in "".join(text_cooked):
+                    i = 0
+                    while not text_cooked[i].startswith("Title | Description"):
+                        i += 1
+                    j = i + 1
+                    while j < len(text_cooked) and text_cooked[j].strip != "":
+                        j += 1
+                    link_list = text_cooked[i+1:j]
+                    link_list = "".join(link_list)
+                    link_list = link_list.replace("---|---", "")
+                    link_list = link_list.replace("\n", " ")
+                    link_list = RX_SPACES.sub(" ", link_list)
+                    link_list = RX_LINK_LIST_DELIM.sub("\n", link_list)
+                    link_list = link_list.replace(" | ", "\n: ")
+                    link_list = link_list.split("\n")
+                    link_list = [line.strip() for line in link_list if line.strip() != ""]
+                    link_list = [line + " " if line == ":" else line for line in link_list]   # force kramdown to continue dl in absence of dd content
+                    link_list = ["\n" + line if line[0] == "[" else line for line in link_list]
+                    link_list = "\n".join(link_list).split("\n")
+                    foo = text_cooked
+                    text_cooked = foo[:i]
+                    text_cooked.extend(link_list)
+                    text_cooked.extend(foo[j:])
+
                 # clean up extra blank lines
                 foo = text_cooked
                 text_cooked = []
@@ -315,7 +356,7 @@ def main (args):
                     else:
                         blanks = 0
                     if blanks < 2:
-                        text_cooked.append(line.strip())
+                        text_cooked.append(line if line == ": " else line.strip())
 
                 text_raw = "".join(text_raw)
                 text_cooked = "\n".join(text_cooked)
