@@ -216,7 +216,7 @@ def main (args):
             else:
                 front_matter = {
                     'title': title,
-                    'layout': 'default',
+                    'layout': args.template,
                     'permalink': args.permalink_prefix + make_permalink(fn),
                 }
                 creators, contributors = get_creators_and_contributors(text_cooked)
@@ -381,6 +381,7 @@ if __name__ == "__main__":
         parser.add_argument ("-v", "--verbose", action="store_true", default=False, help="verbose output (logging level == INFO")
         parser.add_argument ("-vv", "--veryverbose", action="store_true", default=False, help="very verbose output (logging level == DEBUG")
         parser.add_argument ("-p", "--permalink_prefix", type=str, default="", help="path prefix for permalinks")
+        parser.add_argument ("-t", "--template", type=str, default="default", help="liquid page template to specify in yaml front matter")
         parser.add_argument("filenames", nargs='+', help="name(s) of files to convert")
         # example positional argument:
         # parser.add_argument('integers', metavar='N', type=int, nargs='+', help='an integer for the accumulator')
