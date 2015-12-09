@@ -35,15 +35,18 @@ $breadcrumb-separator: 					">";
 @import "../bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css";
 
 // basic customizations and mixin definitions (must be first)
+@import "discrete";
 @import "readeasy";
 @import "whitespace";
 
 // individual customizations
 @import "abbr";
+@import "attribution";
 @import "bodytext";
 @import "breadcrumbs";
 @import "byline";
 @import "btn";
+@import "citation";
 @import "dogear";
 @import "footer";
 @import "headings";
