@@ -2,13 +2,37 @@
 layout: default
 permalink: /about/impact/
 title: Impact
-creators: The Editors
+copyright: Copyright © 2013-2015 The University of North Carolina at Chapel Hill, New York University, Roger Bagnall, Jeffrey Becker, Sarah Bond, Stefano Costa, Sean Gillies, Ryan Horne, Noah Kaye, Adam Rabinowitz, Richard Talbert, Brian Turner, and Scott Vanderbilt.
+creators:
+  - name: Tom Elliott
+    path: /author/thomase
+contributors:
+  - name: Roger Bagnall
+    path: /author/rbagnall
+  - name: Jeffrey Becker
+    path: /author/jbecker
+  - name: Sarah Bond
+    path: /author/sbond
+  - name: Stefano Costa
+    path: /author/scosta
+  - name: Sean Gillies
+    path: /author/sgillies
+  - name: Ryan Horne
+    path: /author/rmhorne
+  - name: Noah Kaye
+    path: /author/nkaye
+  - name: Adam Rabinowitz
+    path: /author/arabinowitz
+  - name: Richard Talbert
+    path: /author/rtalbert
+  - name: Brian Turner
+    path: /author/bdturner
+  - name: Scott Vanderbilt
+    path: /author/sarcanon
 description: Information about Pleiades - its purpose, history, and impact.
-created: 2007-01-01
+created: 2013-01-01
 modified: 2015-11-20
 subjects: Geography, Ancient; Data, Geospatial; Project History; Grant History; Documentation
-copyright: The University of North Carolina at Chapel Hill and New York University
-lede: Pleiades publishes authoritative information about ancient places and spaces, providing unique services for finding, displaying, and reusing it under open license as part of a revolutionary network of digital humanities projects.
 ---
 
 ## Significance and Impact

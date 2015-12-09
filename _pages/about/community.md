@@ -2,20 +2,46 @@
 layout: default
 permalink: /about/community/
 title: Community
-creators: The Editors
+copyright: Copyright © 2013-2015 The University of North Carolina at Chapel Hill, New York University, Roger Bagnall, Jeffrey Becker, Sarah Bond, Stefano Costa, Ryan Horne, Noah Kaye, Adam Rabinowitz, Richard Talbert, Brian Turner, and Scott Vanderbilt.
+creators: 
+  - name: Jeffrey Becker
+    path: /author/jbecker
+  - name: Sarah Bond
+    path: /author/sbond
+  - name: Stefano Costa
+    path: /author/scosta
+  - name: Tom Elliott
+    path: /author/thomase
+  - name: Sean Gillies
+    path: /author/sgillies
+  - name: Ryan Horne
+    path: /author/rmhorne
+  - name: Noah Kaye
+    path: /author/nkaye
+  - name: Adam Rabinowitz
+    path: /author/arabinowitz
+  - name: Brian Turner
+    path: /author/bdturner
+  - name: Scott Vanderbilt
+    path: /author/sarcanon
+contributors:
+  - name: Roger Bagnall
+    path: /author/rbagnall
+  - name: Richard Talbert
+    path: /author/rtalbert
 description: Information about Pleiades - its purpose, history, and impact.
-created: 2007-01-01
+created: 2013-01-01
 modified: 2015-11-20
 subjects: Geography, Ancient; Data, Geospatial; Project History; Grant History; Documentation
-copyright: The University of North Carolina at Chapel Hill and New York University
-lede: Pleiades publishes authoritative information about ancient places and spaces, providing unique services for finding, displaying, and reusing it under open license as part of a revolutionary network of digital humanities projects.
 ---
 
 ## A Community of Authors
 
-_Pleiades_ content is updated collaboratively by volunteers around the world who work under the supervision of a volunteer Editorial College, filling a gap in the scholarly communications fabric for the typically small, highly technical notes and bits of geographic data that are otherwise unlikely to see the light of day in conventional, narrative-focused publications.  
+_Pleiades_ content is updated collaboratively by [volunteers around the world](/credits) who work under the supervision of [a volunteer Editorial College](/credits#editors). Their work fills a gap in the scholarly communications fabric for the typically small, highly technical notes and bits of geographic data that are otherwise unlikely to see the light of day in conventional, narrative-focused publications.  
 
-Through _Pleiades_ these volunteers also provide authority control for ancient places. Just as the Library of Congress issues “authority files” to help improve discoverability in library catalogs by standardizing subject terms, names, and titles, _Pleiades_ assigns a stable identifying number to each place and to each record about a place. The use of numbers, rather than “standard” or “preferred” placenames, permits _Pleiades_ to itemize places that never had a formal name in antiquity (e.g., a particular courtyard, road segment, or bridge) or whose ancient name has been lost from our sources over the intervening centuries. The PIDs are incorporated into the page address in a uniform way that is easy to remember and to encode, thereby forming for each place a Uniform Resource Identifier (URI), a standard mechanism for identifying documents and objects on the world-wide web.  So, for example, _Pleiades_ assigns the PID 29573 to an ancient region known as “Gedrosia”. The URI for the _Pleiades_ page for this Gedrosia is http://pleiades.stoa.org/places/29573. This practice facilitates citation and linking for individual users and establishes a simple, permanent reference number for each place that can be used anywhere such references are valuable. 
+Through _Pleiades_, these volunteers also provide authority control for ancient places. Just as [the Library of Congress issues “authority files”](http://authorities.loc.gov/) to help improve discoverability in library catalogs by standardizing subject terms, names, and titles, _Pleiades_ assigns [a stable identifying number](/help/pleiades-identifiers-place-numbers) to each place and to each record about a place. The use of numbers, rather than “standard” or “preferred” placenames, permits _Pleiades_ to itemize places that never had a formal name in antiquity (e.g., a particular courtyard, road segment, or bridge), as well as those whose ancient name has been lost from our sources over the intervening centuries. 
+
+These "Pleiades IDs" (PIDs) are incorporated into the page address in a uniform way that is easy to remember and to encode. The result provides each place with a [Uniform Resource Identifier (URI)](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier), a standard mechanism for identifying documents on the web, as well as real-world objects.  So, for example, _Pleiades_ assigns the PID 29573 to an ancient region known as “Gedrosia”. The URI for the _Pleiades_ page for this Gedrosia is [http://pleiades.stoa.org/places/29573](http://pleiades.stoa.org/places/29573). This practice facilitates citation and linking for individual users and establishes a simple, permanent reference number for each place that can be used anywhere such references are valuable. 
 
 ## A Community of Collaborators
 
