@@ -2,12 +2,16 @@
 layout: default
 permalink: /places
 title: Places
-creator: The Editors
+copyright: Copyright © 2007-2015 The University of North Carolina and New York University.
+creators:
+- name: Sean Gillies
+  path: /author/sgillies
+- name: Tom Elliott
+  path: /author/thomase
 description: You don't need a login to start searching, reading and using Pleiades information, but you do need one if you wish to contribute corrections and new content.
 created: 2007-01-01
 modified: 2015-11-20
 subjects: Geography, Ancient; Data, Geospatial; Places; Placenames; Toponyms; Locations; Coordinates
-copyright: The University of North Carolina at Chapel Hill, New York University, and the Editors
 ---
 
 <div class="content-main">

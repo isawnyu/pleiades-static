@@ -2,12 +2,16 @@
 layout: default
 permalink: /downloads
 title: Downloads
-creator: Sean Gillies and Tom Elliott
+copyright: Copyright © 2007-2015 The University of North Carolina and New York University.
+creators:
+- name: Sean Gillies
+  path: /author/sgillies
+- name: Tom Elliott
+  path: /author/thomase
 description: Regularly updated exports of all published Pleiades resources are available in multiple formats including CSV, KML, and RDF.
 created: 2007-01-01
 modified: 2015-11-20
 subjects: Geography, Ancient; Data, Geospatial; Downloading of data
-copyright: The University of North Carolina at Chapel Hill and New York University
 ---
 
 # Downloads
