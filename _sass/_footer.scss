@@ -1,14 +1,17 @@
 @charset 'utf-8';
 
+$footer-p-width: 800px;
+
 footer {
     background-color: $gray-lighter;
     margin-top: 1em;
     padding: 1em;
     text-align: center;
+    @include discrete-mixin;
 
     p: {
         margin: 1em 0 0;
-        max-width: 800px;
+        max-width: $footer-p-width;
     }
 
     p:first-child {
@@ -19,7 +22,8 @@ footer {
         display: none;
     }
 
-    @media (min-width: $w-superwide-min) {
+    @media (min-width: $reading-width) {
+    /* @media (min-width: $w-superwide-min) { */
         > div {
             margin-left: auto;
             margin-right: auto;
@@ -29,6 +33,10 @@ footer {
         }
         br {
             display: block;
+        }
+        p { 
+            width: $footer-p-width;
+            max-width: $footer-p-width;
         }
 
     }

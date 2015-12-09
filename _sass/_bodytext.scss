@@ -1,19 +1,19 @@
 @charset 'utf-8';
 
-p, ul:not(.nav), dl {
+p, ul:not(.nav), ol:not(.breadcrumb), dl {
     @include readeasy-mixin;
     @include whitespace-default;
     @include whitespace-sm-min;
 }
 
-ul:not(.nav) {
+ul:not(.nav), ol:not(.breadcrumb) {
     padding-left: 20px;
     @media (min-width: $screen-sm-min) {
         padding-left: 40px;
     }
 }
 
-ul:not(.nav) > li {
+ul:not(.nav) > li, ol:not(.breadcrumb) > li {
     @media (min-width: $screen-sm-min) {
         margin-bottom: .3em;
     }
@@ -24,4 +24,8 @@ dl > dd + dt {
     @media (min-width: $screen-sm-min) {
         margin-top: 1em;
     }
+}
+
+hr {
+    @include readeasy-mixin;
 }
