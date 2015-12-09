@@ -1,23 +1,16 @@
-You are here: [Home](http://pleiades.stoa.org/home) →
-[Help](http://pleiades.stoa.org/help) →  How to track changes in Pleiades
-
-[Skip to content.](http://pleiades.stoa.org/help/how-to-track-changes-in-
-pleiades?from=tom.elliott%40nyu.edu&user-
-agent=Paregoriosian%2F0.1#documentContent) | [Skip to
-navigation](http://pleiades.stoa.org/help/how-to-track-changes-in-
-pleiades?from=tom.elliott%40nyu.edu&user-agent=Paregoriosian%2F0.1#portlet-
-navigation-tree)
+---
+copyright: Copyright © 2013 New York University.
+created: '2013-06-14'
+creators:
+- name: Tom Elliott
+  path: /author/thomase
+layout: helppage
+modified: '2013-06-14'
+permalink: /help/how-to-track-changes-in-pleiades
+title: How to track changes in Pleiades
+---
 
 #  How to track changes in Pleiades
-
-Creators: [Tom Elliott](/author/thomase) Copyright © The Contributors. Sharing
-and remixing permitted under terms of the Creative Commons Attribution 3.0
-License (cc-by).
-
-Last modified  Jun 14, 2013 04:10 PM
-
-tags:  [using](http://pleiades.stoa.org/search?Subject%3Alist=using),
-[help](http://pleiades.stoa.org/search?Subject%3Alist=help)
 
 Pleiades provides a number of ways for keeping track of what's recently been
 added to or changed in Pleiades. Here's an overview.
@@ -48,9 +41,9 @@ should find links to the "always updated" feed versions, which you can grab
 for other uses. Here's an example listing all places published in the last
 month :
 
-  * [Pleiades places published in the last month (HTML view)](../search?SearchableText=&Title=&Description=&Subject_usage%3Aignore_empty=&getFeatureType_usage%3Aignore_empty=&Creator=&Contributors=&Provenance=&Cites=&lowerLeft=&upperRight=&predicate=intersection&tolerance=0.0&limit=1&created%3Alist%3Adate=2013%2F05%2F13&created_usage=range%3Amin&portal_type%3Alist=Place&review_state%3Alist=published&fieldsets%3Alist=basic&fieldsets%3Alist=categories&fieldsets%3Alist=authciteprov&fieldsets%3Alist=geo&fieldsets%3Alist=workflow&form.submitted=1&submit=Advanced+Search)
-  * [Pleiades places published in the last month (RSS feed)](../search_rss?SearchableText=&Title=&Description=&Subject_usage%3Aignore_empty=&getFeatureType_usage%3Aignore_empty=&Creator=&Contributors=&Provenance=&Cites=&lowerLeft=&upperRight=&predicate=intersection&tolerance=0.0&limit=1&created%3Alist%3Adate=2013%2F05%2F13&created_usage=range%3Amin&portal_type%3Alist=Place&review_state%3Alist=published&fieldsets%3Alist=basic&fieldsets%3Alist=categories&fieldsets%3Alist=authciteprov&fieldsets%3Alist=geo&fieldsets%3Alist=workflow&form.submitted=1&submit=Advanced+Search)
-  * [Pleiades places published in the last month (KML)](../search_kml?SearchableText=&Title=&Description=&Subject_usage%3Aignore_empty=&getFeatureType_usage%3Aignore_empty=&Creator=&Contributors=&Provenance=&Cites=&lowerLeft=&upperRight=&predicate=intersection&tolerance=0.0&limit=1&created%3Alist%3Adate=2013%2F05%2F13&created_usage=range%3Amin&portal_type%3Alist=Place&review_state%3Alist=published&fieldsets%3Alist=basic&fieldsets%3Alist=categories&fieldsets%3Alist=authciteprov&fieldsets%3Alist=geo&fieldsets%3Alist=workflow&form.submitted=1&submit=Advanced+Search)
+* [Pleiades places published in the last month (HTML view)](../search?SearchableText=&Title=&Description=&Subject_usage%3Aignore_empty=&getFeatureType_usage%3Aignore_empty=&Creator=&Contributors=&Provenance=&Cites=&lowerLeft=&upperRight=&predicate=intersection&tolerance=0.0&limit=1&created%3Alist%3Adate=2013%2F05%2F13&created_usage=range%3Amin&portal_type%3Alist=Place&review_state%3Alist=published&fieldsets%3Alist=basic&fieldsets%3Alist=categories&fieldsets%3Alist=authciteprov&fieldsets%3Alist=geo&fieldsets%3Alist=workflow&form.submitted=1&submit=Advanced+Search)
+* [Pleiades places published in the last month (RSS feed)](../search_rss?SearchableText=&Title=&Description=&Subject_usage%3Aignore_empty=&getFeatureType_usage%3Aignore_empty=&Creator=&Contributors=&Provenance=&Cites=&lowerLeft=&upperRight=&predicate=intersection&tolerance=0.0&limit=1&created%3Alist%3Adate=2013%2F05%2F13&created_usage=range%3Amin&portal_type%3Alist=Place&review_state%3Alist=published&fieldsets%3Alist=basic&fieldsets%3Alist=categories&fieldsets%3Alist=authciteprov&fieldsets%3Alist=geo&fieldsets%3Alist=workflow&form.submitted=1&submit=Advanced+Search)
+* [Pleiades places published in the last month (KML)](../search_kml?SearchableText=&Title=&Description=&Subject_usage%3Aignore_empty=&getFeatureType_usage%3Aignore_empty=&Creator=&Contributors=&Provenance=&Cites=&lowerLeft=&upperRight=&predicate=intersection&tolerance=0.0&limit=1&created%3Alist%3Adate=2013%2F05%2F13&created_usage=range%3Amin&portal_type%3Alist=Place&review_state%3Alist=published&fieldsets%3Alist=basic&fieldsets%3Alist=categories&fieldsets%3Alist=authciteprov&fieldsets%3Alist=geo&fieldsets%3Alist=workflow&form.submitted=1&submit=Advanced+Search)
 
 If you're interested in knowing not only when the general information about
 places is changed, but also when new sets of coordinates (i.e., locations) are
@@ -113,81 +106,3 @@ ubiquitous support for RSS feeds as well (just tracked issues).
 The big map on the [Pleiades splash page](../) features a randomized mix of
 recently changed and older Pleiades content, but that's not a systematic way
 to see what's new or changed.
-
-History
-
-    
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Jun 14, 2013 04:10 PM 
-
-mention blog and issue tracker feeds
-
-[View this revision](http://pleiades.stoa.org/help/how-to-track-changes-in-
-pleiades/versions_history_form?version_id=5#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/how-to-track-changes-in-
-pleiades/@@history?one=current&two=5)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/how-to-track-changes-in-
-pleiades/@@history?one=5&two=4 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Jun 14, 2013 04:10 PM 
-
-Initial revision
-
-[View this revision](http://pleiades.stoa.org/help/how-to-track-changes-in-
-pleiades/versions_history_form?version_id=4#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/how-to-track-changes-in-
-pleiades/@@history?one=current&two=4)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/how-to-track-changes-in-
-pleiades/@@history?one=4&two=3 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Jun 14, 2013 03:56 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/how-to-track-changes-in-
-pleiades/versions_history_form?version_id=3#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/how-to-track-changes-in-
-pleiades/@@history?one=current&two=3)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/how-to-track-changes-in-
-pleiades/@@history?one=3&two=2 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Jun 14, 2013 03:56 PM 
-
-Initial revision
-
-[View this revision](http://pleiades.stoa.org/help/how-to-track-changes-in-
-pleiades/versions_history_form?version_id=2#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/how-to-track-changes-in-
-pleiades/@@history?one=current&two=2)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/how-to-track-changes-in-
-pleiades/@@history?one=2&two=1 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Jun 14, 2013 03:55 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/how-to-track-changes-in-
-pleiades/versions_history_form?version_id=1#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/how-to-track-changes-in-
-pleiades/@@history?one=current&two=1)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/how-to-track-changes-in-
-pleiades/@@history?one=1&two=0 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Jun 14, 2013 03:53 PM 
-
-Initial revision
-
-[View this revision](http://pleiades.stoa.org/help/how-to-track-changes-in-
-pleiades/versions_history_form?version_id=0#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/how-to-track-changes-in-
-pleiades/@@history?one=current&two=0)
-
-##### Document Actions
-
-  * [Print this](javascript:this.print\(\); "" )
-

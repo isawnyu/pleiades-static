@@ -1,498 +1,322 @@
-You are here: [Home](http://pleiades.stoa.org/home) →
-[Help](http://pleiades.stoa.org/help) →  Geography Terms and Abbreviations
-
-[Skip to content.](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations#documentContent) | [Skip to
-navigation](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations#portlet-navigation-tree)
+---
+contributors:
+- name: '['
+  path: T
+- name: T
+  path: h
+- name: The Classical Atlas Project
+copyright: Copyright © 2012-2013 New York University, [, T, and The Classical Atlas Project.
+created: '2012-01-13'
+creators:
+- name: Sean Gillies
+  path: /author/sgillies
+layout: helppage
+modified: '2013-02-11'
+permalink: /help/geography-terms-and-abbreviations
+title: Geography Terms and Abbreviations
+---
 
 #  Geography Terms and Abbreviations
-
-tags:  [concept](http://pleiades.stoa.org/search?Subject%3Alist=concept),
-[help](http://pleiades.stoa.org/search?Subject%3Alist=help)
-
-Creators: [Sean Gillies](/author/sgillies)
-
-Contributors: [Tom Elliott](/author/thomase), The Classical Atlas Project
-
-Copyright © The Contributors. Sharing and remixing permitted under terms of
-the Creative Commons Attribution 3.0 License (cc-by).
-
-Last modified  Feb 11, 2013 02:03 PM
 
 Greek and Latin geographic terms often appear in the titles of places or in
 their names, sometimes in abbreviated form. Those used in the Barrington Atlas
 and in Pleiades are defined here.
 
-## Table of Contents  
+## Table of Contents
 
-  * Latin Terms
-  * Greek Terms
-  * Abbreviated Terms
-  * References  
+* Latin Terms
+* Greek Terms
+* Abbreviated Terms
+* References
 
 ## Latin Terms
 
 **Aestuarium**
-    estuary
+estuary
 **Ager, Agri**
-    district, region
+district, region
 **Aqua**
-    aqueduct
+aqueduct
 **Campus, -i**
-    plain
+plain
 **Collis, -es**
-    hill(s)
+hill(s)
 **Fauces**
-    gorge(s)
+gorge(s)
 **Fons, Fontes**
-    spring(s)
+spring(s)
 **Fossa(tum)**
-    earthwork, canal
+earthwork, canal
 **Fretum**
-    strait
+strait
 **Fundus**
-    estate
+estate
 **Horti**
-    gardens, estate
+gardens, estate
 **Inferior**
-    lower
+lower
 **Iuga**
-    mountain chain, ridge(s)
+mountain chain, ridge(s)
 **Limes**
-    fortified line
+fortified line
 **Litus**
-    coast, shore
+coast, shore
 **Magnus, -a, -um**
-    large
+large
 **Mare**
-    sea
+sea
 **Metallum, -i, -a**
-    mine(s)
+mine(s)
 **Murus**
-    wall
+wall
 **Nemus**
-    grove
+grove
 **Oceanus**
-    ocean
+ocean
 **Ora**
-    coast, shore
+coast, shore
 **Ostium**
-    estuary, river mouth
+estuary, river mouth
 **Pagus**
-    district, village
+district, village
 **Palus, Paludes**
-    marsh(es), swamp(s)
+marsh(es), swamp(s)
 **Parvus, -a, -um**
-    small
+small
 **Pons**
-    bridge
+bridge
 **Porta, -ae**
-    gate(s), pass
+gate(s), pass
 **Portus**
-    port
+port
 **Praedium, -a**
-    estate(s)
+estate(s)
 **Salinae**
-    salt marsh, salt pans
+salt marsh, salt pans
 **Saltus**
-    district, forest
+district, forest
 **Saxa**
-    rocks
+rocks
 **Scopulus, -i**
-    rock(s)
+rock(s)
 **Silva**
-    forest, wood
+forest, wood
 **Sinus**
-    bay, gulf, strait
+bay, gulf, strait
 **Stagnum**
-    lake, swamp
+lake, swamp
 **Superior**
-    upper
+upper
 **Tractus**
-    region
+region
 **Turris, -es**
-    tower(s)
+tower(s)
 **Vallis, -es**
-    valley(s)
+valley(s)
 **Via, -ae**
-    road(s)
+road(s)
 **Vicus**
-    village
+village
 
 ## Greek Terms
 
 Aigialos
 
-    coast, shore
+coast, shore
 Akra, Akron, Akroterion
 
-    cape, promontory
+cape, promontory
 Ano
 
-    upper
+upper
 Antron
 
-    cave
+cave
 Aulon
 
-    glen (land), gulf (sea)
+glen (land), gulf (sea)
 Chora
 
-    region
+region
 Diorux
 
-    canal
+canal
 Eischusis
 
-    estuary
+estuary
 Helos
 
-    marsh
+marsh
 Hieron
 
-    temple
+temple
 Hodos, -oi
 
-    road(s)
+road(s)
 Hyle
 
-    forest
+forest
 Kato
 
-    lower
+lower
 Keras
 
-    horn, cape
+horn, cape
 Kolpos
 
-    bay, gulf, strait
+bay, gulf, strait
 Kome
 
-    village
+village
 Krene
 
-    spring
+spring
 Limen
 
-    port
+port
 Limne, -ai
 
-    lake, marsh
+lake, marsh
 Megas, Megale, Mega
 
-    large
+large
 Meris
 
-    administrative district
+administrative district
 Mikros, -a, -on
 
-    small
+small
 Nesos, -oi
 
-    island(s)
+island(s)
 Okeanos
 
-    ocean
+ocean
 Oros, Ore
 
-    mountain(s)
+mountain(s)
 Pedion
 
-    plain
+plain
 Pege
 
-    spring
+spring
 Pelagos
 
-    sea
+sea
 Petra, -ai
 
-    rock(s)
+rock(s)
 Porthmos
 
-    strait
+strait
 Potamos
 
-    river
+river
 Pyle, -ai
 
-    gate(s), pass
+gate(s), pass
 Skopelos, -oi
 
-    rock(s), peak(s)
+rock(s), peak(s)
 Stena
 
-    gorge
+gorge
 Stoma
 
-    estuary, river mouth
+estuary, river mouth
 Teichos, -e
 
-    wall(s)
+wall(s)
 Thalassa
 
-    sea
+sea
 Thines
 
-    earthwork
+earthwork
 
-## Abbreviated Terms  
+## Abbreviated Terms
 
 Ag., Hag.
 
-    (H)Agios (m.), H(Agia) (f.)  
+(H)Agios (m.), H(Agia) (f.)
 saint
 
 Cast.
 
-    Castellum, Castra  
+Castellum, Castra
 camp, fort
 
 Civ.
 
-    Civitas  
+Civitas
 city, settlement
 
 Col.
 
-    Colonia  
+Colonia
 colony
 
 fl.
 
-    flumen, fluvius  
+flumen, fluvius
 river
 
 Ins(s).
 
-    Insulat(e)  
+Insulat(e)
 island(s)
 
 L.
 
-    Lacus  
+Lacus
 lake
 
 M.
 
-    Mons, Montes  
+Mons, Montes
 mountain(s)
 
 Mon.
 
-    Monasterium  
+Monasterium
 monastery
 
 Monu.
 
-    Monumentum  
+Monumentum
 monument
 
 Mun.
 
-    Municipium  
+Municipium
 city, settlement
 
 N.
 
-    Nomos  
+Nomos
 administrative district
 
 Pr.
 
-    Promunturium  
+Promunturium
 cape, promontory
 
 S.
 
-    Sanctus (m.), Sancta (f.)  
+Sanctus (m.), Sancta (f.)
 saint
 
 Sep.
 
-    Sepulchrum, -a  
+Sepulchrum, -a
 monument(s), tomb(s)
 
 T.
 
-    Templum  
+Templum
 temple
 
 ## References
 
-  * Talbert, Richard J. A. _Barrington atlas of the Greek and Roman world_. Princeton, N.J.: Princeton University Press,, 2000. Print.
-
-History
-
-    
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Feb 11, 2013 02:03 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/versions_history_form?version_id=13#version_preview) · [Compare
-with current revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/@@history?one=current&two=13)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/@@history?one=13&two=12 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Nov 06, 2012 03:43 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/versions_history_form?version_id=12#version_preview) · [Compare
-with current revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/@@history?one=current&two=12)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/@@history?one=12&two=11 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Jan 17, 2012 01:20 PM 
-
-Add reference and improve description
-
-[View this revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/versions_history_form?version_id=11#version_preview) · [Compare
-with current revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/@@history?one=current&two=11)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/@@history?one=11&two=10 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Jan 17, 2012 01:16 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/versions_history_form?version_id=10#version_preview) · [Compare
-with current revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/@@history?one=current&two=10)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/@@history?one=10&two=9 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Jan 17, 2012 01:14 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/versions_history_form?version_id=9#version_preview) · [Compare
-with current revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/@@history?one=current&two=9)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/@@history?one=9&two=8 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Jan 17, 2012 01:14 PM 
-
-Initial revision
-
-[View this revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/versions_history_form?version_id=8#version_preview) · [Compare
-with current revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/@@history?one=current&two=8)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/@@history?one=8&two=7 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Jan 14, 2012 05:40 PM 
-
-add categories
-
-[View this revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/versions_history_form?version_id=7#version_preview) · [Compare
-with current revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/@@history?one=current&two=7)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/@@history?one=7&two=6 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Jan 13, 2012 11:35 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/versions_history_form?version_id=6#version_preview) · [Compare
-with current revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/@@history?one=current&two=6)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/@@history?one=6&two=5 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Jan 13, 2012 11:22 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/versions_history_form?version_id=5#version_preview) · [Compare
-with current revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/@@history?one=current&two=5)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/@@history?one=5&two=4 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Jan 13, 2012 11:09 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/versions_history_form?version_id=4#version_preview) · [Compare
-with current revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/@@history?one=current&two=4)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/@@history?one=4&two=3 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Jan 13, 2012 06:59 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/versions_history_form?version_id=3#version_preview) · [Compare
-with current revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/@@history?one=current&two=3)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/@@history?one=3&two=2 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Jan 13, 2012 06:45 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/versions_history_form?version_id=2#version_preview) · [Compare
-with current revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/@@history?one=current&two=2)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/@@history?one=2&two=1 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Jan 13, 2012 06:42 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/versions_history_form?version_id=1#version_preview) · [Compare
-with current revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/@@history?one=current&two=1)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/@@history?one=1&two=0 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Jan 13, 2012 06:33 PM 
-
-Initial revision
-
-[View this revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/versions_history_form?version_id=0#version_preview) · [Compare
-with current revision](http://pleiades.stoa.org/help/geography-terms-and-
-abbreviations/@@history?one=current&two=0)
-
-##### Document Actions
-
-  * [Print this](javascript:this.print\(\); "" )
-
+* Talbert, Richard J. A. _Barrington atlas of the Greek and Roman world_. Princeton, N.J.: Princeton University Press,, 2000. Print.

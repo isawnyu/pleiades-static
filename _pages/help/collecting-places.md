@@ -1,27 +1,21 @@
-You are here: [Home](http://pleiades.stoa.org/home) →
-[Help](http://pleiades.stoa.org/help) →  Collecting Places
-
-[Skip to content.](http://pleiades.stoa.org/help/collecting-
-places?from=tom.elliott%40nyu.edu&user-
-agent=Paregoriosian%2F0.1#documentContent) | [Skip to
-navigation](http://pleiades.stoa.org/help/collecting-
-places?from=tom.elliott%40nyu.edu&user-agent=Paregoriosian%2F0.1#portlet-
-navigation-tree)
+---
+contributors:
+- name: Brian Turner
+  path: /author/bdturner
+- name: Tom Elliott
+  path: /author/thomase
+copyright: Copyright © 2012-2013 New York University and Brian Turner.
+created: '2012-03-14'
+creators:
+- name: Sean Gillies
+  path: /author/sgillies
+layout: helppage
+modified: '2013-02-11'
+permalink: /help/collecting-places
+title: Collecting Places
+---
 
 #  Collecting Places
-
-tags:  [using](http://pleiades.stoa.org/search?Subject%3Alist=using),
-[howto](http://pleiades.stoa.org/search?Subject%3Alist=howto),
-[help](http://pleiades.stoa.org/search?Subject%3Alist=help)
-
-Creators: [Sean Gillies](/author/sgillies)
-
-Contributors: [Brian Turner](/author/bdturner), [Tom Elliott](/author/thomase)
-
-Copyright © The Contributors. Sharing and remixing permitted under terms of
-the Creative Commons Attribution 3.0 License (cc-by).
-
-Last modified  Feb 11, 2013 02:50 PM
 
 How to save, tend, and share collections of places
 
@@ -114,117 +108,3 @@ private state, it can't be accessed by anyone other than you and the managers
 of Pleiades. Select "Publish" from the State action and your collection can be
 viewed, but not edited, by others. The KML link can then be used in Google
 Maps, for example: <http://g.co/maps/mu3n7>.
-
-History
-
-    
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Feb 11, 2013 02:50 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/collecting-
-places/versions_history_form?version_id=8#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/collecting-
-places/@@history?one=current&two=8)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/collecting-
-places/@@history?one=8&two=7 "Compare with previous revision" )
-
-  * Edited by [Brian Turner](http://pleiades.stoa.org/author/bdturner) on Jan 24, 2013 01:38 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/collecting-
-places/versions_history_form?version_id=7#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/collecting-
-places/@@history?one=current&two=7)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/collecting-
-places/@@history?one=7&two=6 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Nov 06, 2012 03:47 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/collecting-
-places/versions_history_form?version_id=6#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/collecting-
-places/@@history?one=current&two=6)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/collecting-
-places/@@history?one=6&two=5 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Mar 17, 2012 03:18 PM 
-
-Tag help
-
-[View this revision](http://pleiades.stoa.org/help/collecting-
-places/versions_history_form?version_id=5#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/collecting-
-places/@@history?one=current&two=5)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/collecting-
-places/@@history?one=5&two=4 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Mar 17, 2012 03:18 PM 
-
-Initial revision
-
-[View this revision](http://pleiades.stoa.org/help/collecting-
-places/versions_history_form?version_id=4#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/collecting-
-places/@@history?one=current&two=4)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/collecting-
-places/@@history?one=4&two=3 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Mar 16, 2012 04:39 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/collecting-
-places/versions_history_form?version_id=3#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/collecting-
-places/@@history?one=current&two=3)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/collecting-
-places/@@history?one=3&two=2 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Mar 16, 2012 02:34 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/collecting-
-places/versions_history_form?version_id=2#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/collecting-
-places/@@history?one=current&two=2)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/collecting-
-places/@@history?one=2&two=1 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Mar 15, 2012 05:23 PM 
-
-Add first two images
-
-[View this revision](http://pleiades.stoa.org/help/collecting-
-places/versions_history_form?version_id=1#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/collecting-
-places/@@history?one=current&two=1)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/collecting-
-places/@@history?one=1&two=0 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Mar 14, 2012 04:32 PM 
-
-Initial revision
-
-[View this revision](http://pleiades.stoa.org/help/collecting-
-places/versions_history_form?version_id=0#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/collecting-
-places/@@history?one=current&two=0)
-
-##### Document Actions
-
-  * [Print this](javascript:this.print\(\); "" )
-

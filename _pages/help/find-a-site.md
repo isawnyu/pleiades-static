@@ -1,29 +1,19 @@
-You are here: [Home](http://pleiades.stoa.org/home) →
-[Help](http://pleiades.stoa.org/help) →  Why can't I find my favorite ancient
-site?
-
-[Skip to content.](http://pleiades.stoa.org/help/find-a-
-site?from=tom.elliott%40nyu.edu&user-
-agent=Paregoriosian%2F0.1#documentContent) | [Skip to
-navigation](http://pleiades.stoa.org/help/find-a-
-site?from=tom.elliott%40nyu.edu&user-agent=Paregoriosian%2F0.1#portlet-
-navigation-tree)
+---
+contributors:
+- name: Brian Turner
+  path: /author/bdturner
+copyright: Copyright © 2011-2015 New York University and Brian Turner.
+created: '2011-10-24'
+creators:
+- name: Tom Elliott
+  path: /author/thomase
+layout: helppage
+modified: '2015-05-06'
+permalink: /help/find-a-site
+title: Why can't I find my favorite ancient site?
+---
 
 #  Why can't I find my favorite ancient site?
-
-Creators: [Tom Elliott](/author/thomase)
-
-Contributors: [Brian Turner](/author/bdturner)
-
-Copyright © The Contributors. Sharing and remixing permitted under terms of
-the Creative Commons Attribution 3.0 License (cc-by).
-
-Last modified  May 06, 2015 03:08 PM
-
-tags:  [using](http://pleiades.stoa.org/search?Subject%3Alist=using),
-[faq](http://pleiades.stoa.org/search?Subject%3Alist=faq),
-[howto](http://pleiades.stoa.org/search?Subject%3Alist=howto),
-[help](http://pleiades.stoa.org/search?Subject%3Alist=help)
 
 The two most likely explanations are: a) we don't have it, or b) search
 failure.
@@ -51,117 +41,3 @@ wildcard to your query, broadening your searches.
 
 For more information on searching _Pleiades_, please see: "[How to Search for
 Things in _Pleiades_.](how-to-search "How to search for things in Pleiades" )"
-
-History
-
-    
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on May 06, 2015 03:08 PM 
-
-added to faq
-
-[View this revision](http://pleiades.stoa.org/help/find-a-
-site/versions_history_form?version_id=8#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/find-a-
-site/@@history?one=current&two=8)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/find-a-
-site/@@history?one=8&two=7 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on May 06, 2015 03:07 PM 
-
-added link to other help topic
-
-[View this revision](http://pleiades.stoa.org/help/find-a-
-site/versions_history_form?version_id=7#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/find-a-
-site/@@history?one=current&two=7)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/find-a-
-site/@@history?one=7&two=6 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Jun 14, 2013 02:12 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/find-a-
-site/versions_history_form?version_id=6#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/find-a-
-site/@@history?one=current&two=6)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/find-a-
-site/@@history?one=6&two=5 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Jun 14, 2013 02:10 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/find-a-
-site/versions_history_form?version_id=5#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/find-a-
-site/@@history?one=current&two=5)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/find-a-
-site/@@history?one=5&two=4 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Feb 11, 2013 02:54 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/find-a-
-site/versions_history_form?version_id=4#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/find-a-
-site/@@history?one=current&two=4)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/find-a-
-site/@@history?one=4&two=3 "Compare with previous revision" )
-
-  * Edited by [Brian Turner](http://pleiades.stoa.org/author/bdturner) on Feb 07, 2013 03:04 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/find-a-
-site/versions_history_form?version_id=3#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/find-a-
-site/@@history?one=current&two=3)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/find-a-
-site/@@history?one=3&two=2 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Nov 07, 2012 01:16 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/find-a-
-site/versions_history_form?version_id=2#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/find-a-
-site/@@history?one=current&two=2)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/find-a-
-site/@@history?one=2&two=1 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Nov 07, 2012 01:16 PM 
-
-Initial revision
-
-[View this revision](http://pleiades.stoa.org/help/find-a-
-site/versions_history_form?version_id=1#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/find-a-
-site/@@history?one=current&two=1)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/find-a-
-site/@@history?one=1&two=0 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Oct 24, 2011 04:52 PM 
-
-Initial revision
-
-[View this revision](http://pleiades.stoa.org/help/find-a-
-site/versions_history_form?version_id=0#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/find-a-
-site/@@history?one=current&two=0)
-
-##### Document Actions
-
-  * [Print this](javascript:this.print\(\); "" )
-

@@ -1,24 +1,16 @@
-You are here: [Home](http://pleiades.stoa.org/home) →
-[Help](http://pleiades.stoa.org/help) →  Pleiades Identifiers (place numbers)
-
-[Skip to content.](http://pleiades.stoa.org/help/pleiades-identifiers-place-
-numbers?from=tom.elliott%40nyu.edu&user-
-agent=Paregoriosian%2F0.1#documentContent) | [Skip to
-navigation](http://pleiades.stoa.org/help/pleiades-identifiers-place-
-numbers?from=tom.elliott%40nyu.edu&user-agent=Paregoriosian%2F0.1#portlet-
-navigation-tree)
+---
+copyright: Copyright © 2014 New York University.
+created: '2014-11-17'
+creators:
+- name: Tom Elliott
+  path: /author/thomase
+layout: helppage
+modified: '2014-11-17'
+permalink: /help/pleiades-identifiers-place-numbers
+title: Pleiades Identifiers (place numbers)
+---
 
 #  Pleiades Identifiers (place numbers)
-
-Creators: [Tom Elliott](/author/thomase) Copyright © The Contributors. Sharing
-and remixing permitted under terms of the Creative Commons Attribution 3.0
-License (cc-by).
-
-Last modified  Nov 17, 2014 05:02 PM
-
-tags:  [using](http://pleiades.stoa.org/search?Subject%3Alist=using),
-[concept](http://pleiades.stoa.org/search?Subject%3Alist=concept),
-[help](http://pleiades.stoa.org/search?Subject%3Alist=help)
 
 This document describes the various identifier schemes that have been used for
 Place Resources in Pleiades over the lifetime of the project. It also provides
@@ -72,69 +64,3 @@ readable concordance for this purpose (in comma-separated-values -- i.e. "CSV"
 -- format) between feature IDs, BAtlas IDs, and Pleiades IDs may be downloaded
 at [http://www.atlantides.org/downloads/pleiades/batlasids-2011.tar.gz](http:/
 /www.atlantides.org/downloades/pleiades/batlasids-2011.tar.gz).
-
-History
-
-    
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Nov 17, 2014 05:01 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/pleiades-identifiers-place-
-numbers/versions_history_form?version_id=4#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/pleiades-identifiers-place-
-numbers/@@history?one=current&two=4)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/pleiades-identifiers-place-
-numbers/@@history?one=4&two=3 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Nov 17, 2014 04:59 PM 
-
-supersession
-
-[View this revision](http://pleiades.stoa.org/help/pleiades-identifiers-place-
-numbers/versions_history_form?version_id=3#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/pleiades-identifiers-place-
-numbers/@@history?one=current&two=3)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/pleiades-identifiers-place-
-numbers/@@history?one=3&two=2 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Nov 17, 2014 04:57 PM 
-
-fixed typo
-
-[View this revision](http://pleiades.stoa.org/help/pleiades-identifiers-place-
-numbers/versions_history_form?version_id=2#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/pleiades-identifiers-place-
-numbers/@@history?one=current&two=2)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/pleiades-identifiers-place-
-numbers/@@history?one=2&two=1 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Nov 17, 2014 04:56 PM 
-
-links to downloads
-
-[View this revision](http://pleiades.stoa.org/help/pleiades-identifiers-place-
-numbers/versions_history_form?version_id=1#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/pleiades-identifiers-place-
-numbers/@@history?one=current&two=1)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/pleiades-identifiers-place-
-numbers/@@history?one=1&two=0 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Nov 17, 2014 04:36 PM 
-
-initial content transfer from TRAC
-
-[View this revision](http://pleiades.stoa.org/help/pleiades-identifiers-place-
-numbers/versions_history_form?version_id=0#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/pleiades-identifiers-place-
-numbers/@@history?one=current&two=0)
-
-##### Document Actions
-
-  * [Print this](javascript:this.print\(\); "" )
-

@@ -1,28 +1,21 @@
-You are here: [Home](http://pleiades.stoa.org/home) →
-[Help](http://pleiades.stoa.org/help) →  Getting Started
-
-[Skip to content.](http://pleiades.stoa.org/help/getting-
-started?from=tom.elliott%40nyu.edu&user-
-agent=Paregoriosian%2F0.1#documentContent) | [Skip to
-navigation](http://pleiades.stoa.org/help/getting-
-started?from=tom.elliott%40nyu.edu&user-agent=Paregoriosian%2F0.1#portlet-
-navigation-tree)
+---
+contributors:
+- name: Brian Turner
+  path: /author/bdturner
+- name: Tom Elliott
+  path: /author/thomase
+copyright: Copyright © 2011-2015 New York University and Brian Turner.
+created: '2011-06-28'
+creators:
+- name: Sean Gillies
+  path: /author/sgillies
+layout: helppage
+modified: '2015-05-06'
+permalink: /help/getting-started
+title: Getting Started
+---
 
 #  Getting Started
-
-Creators: [Sean Gillies](/author/sgillies)
-
-Contributors: [Brian Turner](/author/bdturner), [Tom Elliott](/author/thomase)
-
-Copyright © The Contributors. Sharing and remixing permitted under terms of
-the Creative Commons Attribution 3.0 License (cc-by).
-
-Last modified  May 06, 2015 03:25 PM
-
-tags:  [howto](http://pleiades.stoa.org/search?Subject%3Alist=howto),
-[adding](http://pleiades.stoa.org/search?Subject%3Alist=adding),
-[help:howto](http://pleiades.stoa.org/search?Subject%3Alist=help%3Ahowto),
-[help](http://pleiades.stoa.org/search?Subject%3Alist=help)
 
 15 minutes is all it takes to get started as a Pleiades contributor
 
@@ -30,8 +23,8 @@ Although it remains helpful, this document is out of date (and for some reason
 the images are busted). We'll fix it and update it as soon as possible. In the
 meantime, you may find it helpful to check out the following "how to" videos:
 
-  * [How to login to _Pleiades_](how-to-login-to-pleiades "How to login to Pleiades" ) (less than 5 minutes; includes information on getting an account and recovering a lost password)
-  * [How to add a new Place resource to _Pleiades_](https://youtu.be/C7oAHurVz-0) (nearly 25 minutes long, but covers much of the process).
+* [How to login to _Pleiades_](how-to-login-to-pleiades "How to login to Pleiades" ) (less than 5 minutes; includes information on getting an account and recovering a lost password)
+* [How to add a new Place resource to _Pleiades_](https://youtu.be/C7oAHurVz-0) (nearly 25 minutes long, but covers much of the process).
 
 * * *
 
@@ -99,191 +92,5 @@ immediately.
 
 Related content
 
-  * ![](http://pleiades.stoa.org/folder_icon.gif) [Pleiades Partners](http://pleiades.stoa.org/docs/partners "A gallery of examples: who uses Pleiades data, what they use it for and ways to get started yourself. If you're using Pleiades data, add a link to your own project!" )
-  * ![](http://pleiades.stoa.org/folder_icon.gif) [Frequently Asked Questions](http://pleiades.stoa.org/faq "And the answers!" )
-
-History
-
-    
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on May 06, 2015 03:25 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/getting-
-started/versions_history_form?version_id=14#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/getting-
-started/@@history?one=current&two=14)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/getting-
-started/@@history?one=14&two=13 "Compare with previous revision" )
-
-  * Edited by [Brian Turner](http://pleiades.stoa.org/author/bdturner) on Feb 07, 2013 03:07 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/getting-
-started/versions_history_form?version_id=13#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/getting-
-started/@@history?one=current&two=13)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/getting-
-started/@@history?one=13&two=12 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Nov 12, 2012 04:51 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/getting-
-started/versions_history_form?version_id=12#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/getting-
-started/@@history?one=current&two=12)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/getting-
-started/@@history?one=12&two=11 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Nov 06, 2012 06:02 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/getting-
-started/versions_history_form?version_id=11#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/getting-
-started/@@history?one=current&two=11)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/getting-
-started/@@history?one=11&two=10 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Nov 06, 2012 03:40 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/getting-
-started/versions_history_form?version_id=10#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/getting-
-started/@@history?one=current&two=10)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/getting-
-started/@@history?one=10&two=9 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Oct 29, 2012 12:35 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/getting-
-started/versions_history_form?version_id=9#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/getting-
-started/@@history?one=current&two=9)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/getting-
-started/@@history?one=9&two=8 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Oct 29, 2012 12:34 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/getting-
-started/versions_history_form?version_id=8#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/getting-
-started/@@history?one=current&two=8)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/getting-
-started/@@history?one=8&two=7 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Oct 29, 2012 12:34 PM 
-
-Initial revision
-
-[View this revision](http://pleiades.stoa.org/help/getting-
-started/versions_history_form?version_id=7#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/getting-
-started/@@history?one=current&two=7)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/getting-
-started/@@history?one=7&two=6 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Dec 03, 2011 03:07 PM 
-
-Add categories
-
-[View this revision](http://pleiades.stoa.org/help/getting-
-started/versions_history_form?version_id=6#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/getting-
-started/@@history?one=current&two=6)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/getting-
-started/@@history?one=6&two=5 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Oct 25, 2011 10:46 AM 
-
-added related items
-
-[View this revision](http://pleiades.stoa.org/help/getting-
-started/versions_history_form?version_id=5#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/getting-
-started/@@history?one=current&two=5)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/getting-
-started/@@history?one=5&two=4 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Jun 29, 2011 12:46 PM 
-
-Explain references and metadata fields
-
-[View this revision](http://pleiades.stoa.org/help/getting-
-started/versions_history_form?version_id=4#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/getting-
-started/@@history?one=current&two=4)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/getting-
-started/@@history?one=4&two=3 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Jun 29, 2011 12:46 PM 
-
-Initial revision
-
-[View this revision](http://pleiades.stoa.org/help/getting-
-started/versions_history_form?version_id=3#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/getting-
-started/@@history?one=current&two=3)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/getting-
-started/@@history?one=3&two=2 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Jun 29, 2011 12:55 AM 
-
-Always add a meaningful change note
-
-[View this revision](http://pleiades.stoa.org/help/getting-
-started/versions_history_form?version_id=2#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/getting-
-started/@@history?one=current&two=2)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/getting-
-started/@@history?one=2&two=1 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Jun 29, 2011 12:20 AM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/getting-
-started/versions_history_form?version_id=1#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/getting-
-started/@@history?one=current&two=1)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/getting-
-started/@@history?one=1&two=0 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Jun 28, 2011 07:40 PM 
-
-Initial revision
-
-[View this revision](http://pleiades.stoa.org/help/getting-
-started/versions_history_form?version_id=0#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/getting-
-started/@@history?one=current&two=0)
-
-##### Document Actions
-
-  * [Print this](javascript:this.print\(\); "" )
-
+* ![](http://pleiades.stoa.org/folder_icon.gif) [Pleiades Partners](http://pleiades.stoa.org/docs/partners "A gallery of examples: who uses Pleiades data, what they use it for and ways to get started yourself. If you're using Pleiades data, add a link to your own project!" )
+* ![](http://pleiades.stoa.org/folder_icon.gif) [Frequently Asked Questions](http://pleiades.stoa.org/faq "And the answers!" )

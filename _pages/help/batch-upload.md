@@ -1,28 +1,21 @@
-You are here: [Home](http://pleiades.stoa.org/home) →
-[Help](http://pleiades.stoa.org/help) →  Is there a way to upload large
-collections of data into Pleiades?
-
-[Skip to content.](http://pleiades.stoa.org/help/batch-
-upload?from=tom.elliott%40nyu.edu&user-
-agent=Paregoriosian%2F0.1#documentContent) | [Skip to
-navigation](http://pleiades.stoa.org/help/batch-
-upload?from=tom.elliott%40nyu.edu&user-agent=Paregoriosian%2F0.1#portlet-
-navigation-tree)
+---
+contributors:
+- name: Brian Turner
+  path: /author/bdturner
+- name: Tom Elliott
+  path: /author/thomase
+copyright: Copyright © 2011-2013 New York University and Brian Turner.
+created: '2011-10-24'
+creators:
+- name: Sean Gillies
+  path: /author/sgillies
+layout: helppage
+modified: '2013-02-11'
+permalink: /help/batch-upload
+title: Is there a way to upload large collections of data into Pleiades?
+---
 
 #  Is there a way to upload large collections of data into Pleiades?
-
-Creators: [Sean Gillies](/author/sgillies)
-
-Contributors: [Brian Turner](/author/bdturner), [Tom Elliott](/author/thomase)
-
-Copyright © The Contributors. Sharing and remixing permitted under terms of
-the Creative Commons Attribution 3.0 License (cc-by).
-
-Last modified  Feb 11, 2013 02:52 PM
-
-tags:  [adding](http://pleiades.stoa.org/search?Subject%3Alist=adding),
-[howto](http://pleiades.stoa.org/search?Subject%3Alist=howto),
-[help](http://pleiades.stoa.org/search?Subject%3Alist=help)
 
 At present, no. But we're working on it and would be grateful for your
 feedback.
@@ -50,106 +43,3 @@ adding references, making connections between places, etc.
 
 Your feedback is gratefully appreciated, and we'll be happy to provide more
 specific examples based on the feedback we get.
-
-History
-
-    
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Feb 11, 2013 02:52 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/batch-
-upload/versions_history_form?version_id=7#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/batch-
-upload/@@history?one=current&two=7)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/batch-
-upload/@@history?one=7&two=6 "Compare with previous revision" )
-
-  * Edited by [Brian Turner](http://pleiades.stoa.org/author/bdturner) on Feb 07, 2013 03:15 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/batch-
-upload/versions_history_form?version_id=6#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/batch-
-upload/@@history?one=current&two=6)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/batch-
-upload/@@history?one=6&two=5 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Nov 15, 2012 05:18 PM 
-
-fixed dumb link
-
-[View this revision](http://pleiades.stoa.org/help/batch-
-upload/versions_history_form?version_id=5#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/batch-
-upload/@@history?one=current&two=5)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/batch-
-upload/@@history?one=5&two=4 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Nov 15, 2012 05:18 PM 
-
-Initial revision
-
-[View this revision](http://pleiades.stoa.org/help/batch-
-upload/versions_history_form?version_id=4#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/batch-
-upload/@@history?one=current&two=4)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/batch-
-upload/@@history?one=4&two=3 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Nov 15, 2012 05:17 PM 
-
-rewrote to reflect current state of affairs and point people to the github
-draft-in-progress
-
-[View this revision](http://pleiades.stoa.org/help/batch-
-upload/versions_history_form?version_id=3#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/batch-
-upload/@@history?one=current&two=3)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/batch-
-upload/@@history?one=3&two=2 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Nov 07, 2012 01:09 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/batch-
-upload/versions_history_form?version_id=2#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/batch-
-upload/@@history?one=current&two=2)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/batch-
-upload/@@history?one=2&two=1 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Nov 07, 2012 01:09 PM 
-
-Initial revision
-
-[View this revision](http://pleiades.stoa.org/help/batch-
-upload/versions_history_form?version_id=1#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/batch-
-upload/@@history?one=current&two=1)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/batch-
-upload/@@history?one=1&two=0 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Oct 24, 2011 04:50 PM 
-
-Initial revision
-
-[View this revision](http://pleiades.stoa.org/help/batch-
-upload/versions_history_form?version_id=0#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/batch-
-upload/@@history?one=current&two=0)
-
-##### Document Actions
-
-  * [Print this](javascript:this.print\(\); "" )
-

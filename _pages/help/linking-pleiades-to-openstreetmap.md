@@ -1,27 +1,19 @@
-You are here: [Home](http://pleiades.stoa.org/home) →
-[Help](http://pleiades.stoa.org/help) →  Linking Pleiades to OpenStreetMap
-
-[Skip to content.](http://pleiades.stoa.org/help/linking-pleiades-to-
-openstreetmap?from=tom.elliott%40nyu.edu&user-
-agent=Paregoriosian%2F0.1#documentContent) | [Skip to
-navigation](http://pleiades.stoa.org/help/linking-pleiades-to-
-openstreetmap?from=tom.elliott%40nyu.edu&user-
-agent=Paregoriosian%2F0.1#portlet-navigation-tree)
+---
+contributors:
+- name: Tom Elliott
+  path: /author/thomase
+copyright: Copyright © 2013 New York University.
+created: '2013-02-07'
+creators:
+- name: Sean Gillies
+  path: /author/sgillies
+layout: helppage
+modified: '2013-02-07'
+permalink: /help/linking-pleiades-to-openstreetmap
+title: Linking Pleiades to OpenStreetMap
+---
 
 #  Linking Pleiades to OpenStreetMap
-
-tags:  [adding](http://pleiades.stoa.org/search?Subject%3Alist=adding),
-[howto](http://pleiades.stoa.org/search?Subject%3Alist=howto),
-[help](http://pleiades.stoa.org/search?Subject%3Alist=help)
-
-Creators: [Sean Gillies](/author/sgillies)
-
-Contributors: [Tom Elliott](/author/thomase)
-
-Copyright © The Contributors. Sharing and remixing permitted under terms of
-the Creative Commons Attribution 3.0 License (cc-by).
-
-Last modified  Feb 07, 2013 06:44 PM
 
 We've made it much easier to get coordinates from and make ties to entities in
 OpenStreetMap, the world's foremost open geographical database. Easy enough,
@@ -30,9 +22,9 @@ we hope, that this will become the first choice for Pleiades users.
 I'm a Pleiades user as well as its developer, and I try to get coordinates
 from OpenStreetMap whenever I can for several reasons.
 
-  * Citing a specific OpenStreetMap entity, as [http://pleiades.stoa.org/places/628932/summit](../../places/628932/summit) cites <http://www.openstreetmap.org/browse/node/100778739>, makes a discoverable and actionable link between Pleiades and the world's foremost open spatial database.
-  * I'm an OpenStreetMap user too, and very interested in getting historical data into OSM. These are steps in that direction. The links I've made in Pleiades can be used someday in finding the appropriate OSM objects to improve using information from Pleiades.
-  * OpenStreetMap has editing tools far beyond anything that Pleiades can or will provide. See the new [iD editor](http://ideditor.com/) for example. I'd like to explore the possibilities of digitizing in OSM and then pulling coordinates back into Pleiades.
+* Citing a specific OpenStreetMap entity, as [http://pleiades.stoa.org/places/628932/summit](../../places/628932/summit) cites <http://www.openstreetmap.org/browse/node/100778739>, makes a discoverable and actionable link between Pleiades and the world's foremost open spatial database.
+* I'm an OpenStreetMap user too, and very interested in getting historical data into OSM. These are steps in that direction. The links I've made in Pleiades can be used someday in finding the appropriate OSM objects to improve using information from Pleiades.
+* OpenStreetMap has editing tools far beyond anything that Pleiades can or will provide. See the new [iD editor](http://ideditor.com/) for example. I'd like to explore the possibilities of digitizing in OSM and then pulling coordinates back into Pleiades.
 
 To make it easier for myself (and hopefully for others), I've added a new
 option to the familiar "Add Location" button on every place page. Click the
@@ -82,57 +74,3 @@ database. After the nodes load on screen, select one of the corner nodes of
 the church we're using as an example, and then click on the "view on OSM" link
 to get to <http://www.openstreetmap.org/browse/node/259712693>. Much more
 direct, don't you agree?
-
-History
-
-    
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Feb 07, 2013 06:44 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/linking-pleiades-to-
-openstreetmap/versions_history_form?version_id=3#version_preview) · [Compare
-with current revision](http://pleiades.stoa.org/help/linking-pleiades-to-
-openstreetmap/@@history?one=current&two=3)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/linking-pleiades-to-
-openstreetmap/@@history?one=3&two=2 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Feb 07, 2013 06:09 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/linking-pleiades-to-
-openstreetmap/versions_history_form?version_id=2#version_preview) · [Compare
-with current revision](http://pleiades.stoa.org/help/linking-pleiades-to-
-openstreetmap/@@history?one=current&two=2)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/linking-pleiades-to-
-openstreetmap/@@history?one=2&two=1 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Feb 07, 2013 06:09 PM 
-
-Initial revision
-
-[View this revision](http://pleiades.stoa.org/help/linking-pleiades-to-
-openstreetmap/versions_history_form?version_id=1#version_preview) · [Compare
-with current revision](http://pleiades.stoa.org/help/linking-pleiades-to-
-openstreetmap/@@history?one=current&two=1)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/linking-pleiades-to-
-openstreetmap/@@history?one=1&two=0 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Feb 07, 2013 05:51 PM 
-
-Initial revision
-
-[View this revision](http://pleiades.stoa.org/help/linking-pleiades-to-
-openstreetmap/versions_history_form?version_id=0#version_preview) · [Compare
-with current revision](http://pleiades.stoa.org/help/linking-pleiades-to-
-openstreetmap/@@history?one=current&two=0)
-
-##### Document Actions
-
-  * [Print this](javascript:this.print\(\); "" )
-

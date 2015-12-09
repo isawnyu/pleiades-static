@@ -4,6 +4,8 @@ title: Pleiades Help
 permalink: /help/
 ---
 
+# Pleiades Help
+
 <div class="pleiades-btn-panel spacious">
 
 <div>

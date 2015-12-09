@@ -1,25 +1,16 @@
-You are here: [Home](http://pleiades.stoa.org/home) →
-[Help](http://pleiades.stoa.org/help) →  How to login to Pleiades
-
-[Skip to content.](http://pleiades.stoa.org/help/how-to-login-to-
-pleiades?from=tom.elliott%40nyu.edu&user-
-agent=Paregoriosian%2F0.1#documentContent) | [Skip to
-navigation](http://pleiades.stoa.org/help/how-to-login-to-
-pleiades?from=tom.elliott%40nyu.edu&user-agent=Paregoriosian%2F0.1#portlet-
-navigation-tree)
+---
+copyright: Copyright © 2015 New York University.
+created: '2015-05-06'
+creators:
+- name: Tom Elliott
+  path: /author/thomase
+layout: helppage
+modified: '2015-05-06'
+permalink: /help/how-to-login-to-pleiades
+title: How to login to Pleiades
+---
 
 #  How to login to Pleiades
-
-Creators: [Tom Elliott](/author/thomase) Copyright © The Contributors. Sharing
-and remixing permitted under terms of the Creative Commons Attribution 3.0
-License (cc-by).
-
-Last modified  May 06, 2015 10:19 AM
-
-tags:  [adding](http://pleiades.stoa.org/search?Subject%3Alist=adding),
-[video](http://pleiades.stoa.org/search?Subject%3Alist=video),
-[howto](http://pleiades.stoa.org/search?Subject%3Alist=howto),
-[help](http://pleiades.stoa.org/search?Subject%3Alist=help)
 
 This video (with transcript) provides a quick overview of procedures for
 logging into the website of the Pleiades gazetteer of ancient places. This
@@ -87,45 +78,3 @@ provided. In addition, any person with a question or a suggestion is welcome
 to write, via email, to the Managing Editors at pleiades.admin@nyu.edu.
 
 Thank you for your interest in the _Pleiades_ gazetteer of ancient places.
-
-History
-
-    
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on May 06, 2015 10:17 AM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/how-to-login-to-
-pleiades/versions_history_form?version_id=2#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/how-to-login-to-
-pleiades/@@history?one=current&two=2)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/how-to-login-to-
-pleiades/@@history?one=2&two=1 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on May 06, 2015 10:15 AM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/how-to-login-to-
-pleiades/versions_history_form?version_id=1#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/how-to-login-to-
-pleiades/@@history?one=current&two=1)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/how-to-login-to-
-pleiades/@@history?one=1&two=0 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on May 06, 2015 10:13 AM 
-
-Initial revision
-
-[View this revision](http://pleiades.stoa.org/help/how-to-login-to-
-pleiades/versions_history_form?version_id=0#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/how-to-login-to-
-pleiades/@@history?one=current&two=0)
-
-##### Document Actions
-
-  * [Print this](javascript:this.print\(\); "" )
-

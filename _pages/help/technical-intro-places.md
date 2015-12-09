@@ -1,29 +1,19 @@
-You are here: [Home](http://pleiades.stoa.org/home) →
-[Help](http://pleiades.stoa.org/help) →  Technical Introduction to Places
-
-[Skip to content.](http://pleiades.stoa.org/help/technical-intro-
-places?from=tom.elliott%40nyu.edu&user-
-agent=Paregoriosian%2F0.1#documentContent) | [Skip to
-navigation](http://pleiades.stoa.org/help/technical-intro-
-places?from=tom.elliott%40nyu.edu&user-agent=Paregoriosian%2F0.1#portlet-
-navigation-tree)
+---
+contributors:
+- name: Tom Elliott
+  path: /author/thomase
+copyright: Copyright © 2011-2015 New York University.
+created: '2011-10-14'
+creators:
+- name: Sean Gillies
+  path: /author/sgillies
+layout: helppage
+modified: '2015-04-21'
+permalink: /help/technical-intro-places
+title: Technical Introduction to Places
+---
 
 #  Technical Introduction to Places
-
-Creators: [Sean Gillies](/author/sgillies)
-
-Contributors: [Tom Elliott](/author/thomase)
-
-Copyright © The Contributors. Sharing and remixing permitted under terms of
-the Creative Commons Attribution 3.0 License (cc-by).
-
-Last modified  Apr 21, 2015 03:33 PM
-
-tags:  [concept](http://pleiades.stoa.org/search?Subject%3Alist=concept),
-[help](http://pleiades.stoa.org/search?Subject%3Alist=help),  [portlet:places]
-(http://pleiades.stoa.org/search?Subject%3Alist=portlet%3Aplaces),
-[place](http://pleiades.stoa.org/search?Subject%3Alist=place),
-[model](http://pleiades.stoa.org/search?Subject%3Alist=model)
 
 What are these places and how are they related to names and locations?
 
@@ -62,7 +52,7 @@ entity of the [CIDOC Conceptual Reference Model](http://www.cidoc-crm.org/)
 (CRM) labeled _E53 Place_, which
 
 > ... comprises extents in space, in particular on the surface of the earth,
-in the pure sense of physics: independent from temporal phenomena and matter,  
+in the pure sense of physics: independent from temporal phenomena and matter,
 
 is almost exactly equivalent to the Pleiades concept of _Location_. The
 Pleiades _Place_ has no single equivalent entity in the CRM. Many places are
@@ -148,141 +138,3 @@ or [advanced](../../../search_form) forms and is also written every morning to
 
 [2] Jacobs, I. and N. Walsh, "Architecture of the World Wide Web, Volume One,"
 W3C Recommendation, 15 Dec. 2004. http://www.w3.org/TR/webarch/
-
-History
-
-    
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Apr 21, 2015 03:33 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/technical-intro-
-places/versions_history_form?version_id=10#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/technical-intro-
-places/@@history?one=current&two=10)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/technical-intro-
-places/@@history?one=10&two=9 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Apr 21, 2015 03:33 PM 
-
-Initial revision
-
-[View this revision](http://pleiades.stoa.org/help/technical-intro-
-places/versions_history_form?version_id=9#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/technical-intro-
-places/@@history?one=current&two=9)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/technical-intro-
-places/@@history?one=9&two=8 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Feb 11, 2013 02:03 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/technical-intro-
-places/versions_history_form?version_id=8#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/technical-intro-
-places/@@history?one=current&two=8)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/technical-intro-
-places/@@history?one=8&two=7 "Compare with previous revision" )
-
-  * Edited by [Tom Elliott](http://pleiades.stoa.org/author/thomase) on Nov 06, 2012 03:36 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/technical-intro-
-places/versions_history_form?version_id=7#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/technical-intro-
-places/@@history?one=current&two=7)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/technical-intro-
-places/@@history?one=7&two=6 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Dec 03, 2011 10:19 PM 
-
-Categorize
-
-[View this revision](http://pleiades.stoa.org/help/technical-intro-
-places/versions_history_form?version_id=6#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/technical-intro-
-places/@@history?one=current&two=6)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/technical-intro-
-places/@@history?one=6&two=5 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Dec 03, 2011 03:17 PM 
-
-Add place category
-
-[View this revision](http://pleiades.stoa.org/help/technical-intro-
-places/versions_history_form?version_id=5#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/technical-intro-
-places/@@history?one=current&two=5)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/technical-intro-
-places/@@history?one=5&two=4 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Oct 14, 2011 03:46 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/technical-intro-
-places/versions_history_form?version_id=4#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/technical-intro-
-places/@@history?one=current&two=4)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/technical-intro-
-places/@@history?one=4&two=3 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Oct 14, 2011 03:46 PM 
-
-Initial revision
-
-[View this revision](http://pleiades.stoa.org/help/technical-intro-
-places/versions_history_form?version_id=3#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/technical-intro-
-places/@@history?one=current&two=3)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/technical-intro-
-places/@@history?one=3&two=2 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Oct 14, 2011 03:44 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/technical-intro-
-places/versions_history_form?version_id=2#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/technical-intro-
-places/@@history?one=current&two=2)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/technical-intro-
-places/@@history?one=2&two=1 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Oct 14, 2011 03:43 PM 
-
-Edited
-
-[View this revision](http://pleiades.stoa.org/help/technical-intro-
-places/versions_history_form?version_id=1#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/technical-intro-
-places/@@history?one=current&two=1)
-
-[ ↑ Compare ↓ ](http://pleiades.stoa.org/help/technical-intro-
-places/@@history?one=1&two=0 "Compare with previous revision" )
-
-  * Edited by [Sean Gillies](http://pleiades.stoa.org/author/sgillies) on Oct 14, 2011 03:43 PM 
-
-Initial revision
-
-[View this revision](http://pleiades.stoa.org/help/technical-intro-
-places/versions_history_form?version_id=0#version_preview) · [Compare with
-current revision](http://pleiades.stoa.org/help/technical-intro-
-places/@@history?one=current&two=0)
-
-##### Document Actions
-
-  * [Print this](javascript:this.print\(\); "" )
-
