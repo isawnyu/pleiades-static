@@ -19,7 +19,7 @@ creators:
 description: "This document describes editorial standards for the creation of clear and complete resources for places, locations, and names."
 layout: default
 lede: "This document describes editorial standards for the creation of clear and complete resources for places, locations, and names."
-modified: '2015-12-17'
+modified: '2015-12-18'
 permalink: /help/editorial-guidelines
 title: "Editorial Guidelines for Places, Locations, and Names"
 ---
