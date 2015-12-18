@@ -1,7 +1,9 @@
 ---
-copyright: "Copyright © 2007-2015 Sarah Bond, Noah Kaye, Adam Rabinowitz, Brian Turner, The University of North Carolina at Chapel Hill, and New York University."
+copyright: "Copyright © 2007-2015 Jeffrey Becker, Sarah Bond, Noah Kaye, Adam Rabinowitz, Brian Turner, The University of North Carolina at Chapel Hill, and New York University."
 created: '2007-01-01'
 creators:
+- name: Jeffrey Becker
+  path: /author/jbecker
 - name: Sarah Bond
   path: /author/sbond
 - name: Tom Elliott
